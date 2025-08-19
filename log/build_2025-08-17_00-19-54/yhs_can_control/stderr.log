@@ -1,0 +1,32 @@
+[01m[K/home/jenter/package/work/src/yhs_can_control/src/yhs_can_control_node.cpp:[m[K In member function ‘[01m[Kvoid yhs::CanControl::steering_ctrl_cmd_callback(yhs_can_interfaces::msg::SteeringCtrlCmd_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/jenter/package/work/src/yhs_can_control/src/yhs_can_control_node.cpp:138:25:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kgear[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  138 |     const unsigned char [01;35m[Kgear[m[K = msg.ctrl_cmd_gear;
+      |                         [01;35m[K^~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/jenter/package/work/src/yhs_can_control/include/yhs_can_control/yhs_can_control_node.hpp:16[m[K,
+                 from [01m[K/home/jenter/package/work/src/yhs_can_control/src/yhs_can_control_node.cpp:1[m[K:
+[01m[K/home/jenter/package/work/src/yhs_can_control/src/yhs_can_control_node.cpp:[m[K In member function ‘[01m[Kvoid yhs::CanControl::can_data_recv_callback()[m[K’:
+[01m[K/home/jenter/package/work/src/yhs_can_control/src/yhs_can_control_node.cpp:243:21:[m[K [01;31m[Kerror: [m[K‘[01m[Knode[m[K’ was not declared in this scope; did you mean ‘[01m[Knode_[m[K’?
+  243 |         RCLCPP_INFO([01;31m[Knode[m[K->get_logger(), "Message: %s", data_str.c_str());
+      |                     [01;31m[K^~~~[m[K
+[01m[K/home/jenter/package/work/src/yhs_can_control/src/yhs_can_control_node.cpp:243:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  243 |         [01;31m[KRCLCPP_INFO[m[K(node->get_logger(), "Message: %s", data_str.c_str());
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/jenter/package/work/src/yhs_can_control/src/yhs_can_control_node.cpp:243:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  243 |         [01;31m[KRCLCPP_INFO[m[K(node->get_logger(), "Message: %s", data_str.c_str());
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/jenter/package/work/src/yhs_can_control/src/yhs_can_control_node.cpp:243:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  243 |         [01;31m[KRCLCPP_INFO[m[K(node->get_logger(), "Message: %s", data_str.c_str());
+      |         [01;31m[K^~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/yhs_can_control_node.dir/build.make:76: CMakeFiles/yhs_can_control_node.dir/src/yhs_can_control_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/yhs_can_control_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,136 @@
+[0.000000] (-) TimerEvent: {}
+[0.000166] (-) JobUnselected: {'identifier': 'bluesea2'}
+[0.000207] (-) JobUnselected: {'identifier': 'serial'}
+[0.000238] (-) JobUnselected: {'identifier': 'yesense_interface'}
+[0.000268] (-) JobUnselected: {'identifier': 'yesense_std_ros2'}
+[0.000295] (-) JobUnselected: {'identifier': 'yhs_can_interfaces'}
+[0.000348] (yhs_can_control) JobQueued: {'identifier': 'yhs_can_control', 'dependencies': OrderedDict([('yhs_can_interfaces', '/home/jenter/package/work/install/yhs_can_interfaces')])}
+[0.000416] (yhs_can_control) JobStarted: {'identifier': 'yhs_can_control'}
+[0.011780] (yhs_can_control) JobProgress: {'identifier': 'yhs_can_control', 'progress': 'cmake'}
+[0.012625] (yhs_can_control) JobProgress: {'identifier': 'yhs_can_control', 'progress': 'build'}
+[0.013588] (yhs_can_control) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jenter/package/work/build/yhs_can_control', '--', '-j4', '-l4'], 'cwd': '/home/jenter/package/work/build/yhs_can_control', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jenter'), ('SSH_CLIENT', '192.168.0.4 50852 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jenter/package/work/install/yhs_can_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/jenter'), ('OLDPWD', '/home/jenter/package/work/src/yhs_can_control/src'), ('SSH_TTY', '/dev/pts/1'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jenter'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'vt100'), ('XDG_SESSION_ID', '6'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/jenter/package/work/install/yhs_can_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('PWD', '/home/jenter/package/work/build/yhs_can_control'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.0.4 50852 192.168.0.26 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jenter/package/work/install/yhs_can_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/jenter/package/work/install/yhs_can_interfaces:/opt/ros/humble')]), 'shell': False}
+[0.066496] (yhs_can_control) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target yhs_can_control_node\x1b[0m\n'}
+[0.090447] (yhs_can_control) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/yhs_can_control_node.dir/src/yhs_can_control_node.cpp.o\x1b[0m\n'}
+[0.098700] (-) TimerEvent: {}
+[0.199076] (-) TimerEvent: {}
+[0.299453] (-) TimerEvent: {}
+[0.399829] (-) TimerEvent: {}
+[0.500217] (-) TimerEvent: {}
+[0.600616] (-) TimerEvent: {}
+[0.701011] (-) TimerEvent: {}
+[0.801419] (-) TimerEvent: {}
+[0.901819] (-) TimerEvent: {}
+[1.002247] (-) TimerEvent: {}
+[1.102655] (-) TimerEvent: {}
+[1.203053] (-) TimerEvent: {}
+[1.303458] (-) TimerEvent: {}
+[1.403859] (-) TimerEvent: {}
+[1.504257] (-) TimerEvent: {}
+[1.604662] (-) TimerEvent: {}
+[1.705068] (-) TimerEvent: {}
+[1.805484] (-) TimerEvent: {}
+[1.905908] (-) TimerEvent: {}
+[2.006328] (-) TimerEvent: {}
+[2.106741] (-) TimerEvent: {}
+[2.207156] (-) TimerEvent: {}
+[2.307564] (-) TimerEvent: {}
+[2.407964] (-) TimerEvent: {}
+[2.508368] (-) TimerEvent: {}
+[2.608774] (-) TimerEvent: {}
+[2.709196] (-) TimerEvent: {}
+[2.809636] (-) TimerEvent: {}
+[2.910077] (-) TimerEvent: {}
+[3.010474] (-) TimerEvent: {}
+[3.110931] (-) TimerEvent: {}
+[3.211345] (-) TimerEvent: {}
+[3.311748] (-) TimerEvent: {}
+[3.412159] (-) TimerEvent: {}
+[3.512551] (-) TimerEvent: {}
+[3.612953] (-) TimerEvent: {}
+[3.713358] (-) TimerEvent: {}
+[3.813761] (-) TimerEvent: {}
+[3.845461] (yhs_can_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jenter/package/work/src/yhs_can_control/src/yhs_can_control_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid yhs::CanControl::steering_ctrl_cmd_callback(yhs_can_interfaces::msg::SteeringCtrlCmd_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.845730] (yhs_can_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jenter/package/work/src/yhs_can_control/src/yhs_can_control_node.cpp:138:25:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kgear\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.845849] (yhs_can_control) StderrLine: {'line': b'  138 |     const unsigned char \x1b[01;35m\x1b[Kgear\x1b[m\x1b[K = msg.ctrl_cmd_gear;\n'}
+[3.845978] (yhs_can_control) StderrLine: {'line': b'      |                         \x1b[01;35m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[3.856878] (yhs_can_control) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[3.857126] (yhs_can_control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[3.857246] (yhs_can_control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[3.857352] (yhs_can_control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[3.857456] (yhs_can_control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[3.857558] (yhs_can_control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[3.857657] (yhs_can_control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[3.857755] (yhs_can_control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[3.857872] (yhs_can_control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[3.857993] (yhs_can_control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[3.858092] (yhs_can_control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jenter/package/work/src/yhs_can_control/include/yhs_can_control/yhs_can_control_node.hpp:16\x1b[m\x1b[K,\n'}
+[3.858192] (yhs_can_control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jenter/package/work/src/yhs_can_control/src/yhs_can_control_node.cpp:1\x1b[m\x1b[K:\n'}
+[3.858289] (yhs_can_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jenter/package/work/src/yhs_can_control/src/yhs_can_control_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid yhs::CanControl::can_data_recv_callback()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.858390] (yhs_can_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jenter/package/work/src/yhs_can_control/src/yhs_can_control_node.cpp:242:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Knode\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Knode_\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[3.858497] (yhs_can_control) StderrLine: {'line': b'  242 |         RCLCPP_INFO(\x1b[01;31m\x1b[Knode\x1b[m\x1b[K->get_logger(), "Raw Data: %02X %02X %02X %02X %02X %02X %02X %02X",\n'}
+[3.858602] (yhs_can_control) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[3.858705] (yhs_can_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jenter/package/work/src/yhs_can_control/src/yhs_can_control_node.cpp:242:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[3.858809] (yhs_can_control) StderrLine: {'line': b'  242 |         \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(node->get_logger(), "Raw Data: %02X %02X %02X %02X %02X %02X %02X %02X",\n'}
+[3.858911] (yhs_can_control) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.859013] (yhs_can_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jenter/package/work/src/yhs_can_control/src/yhs_can_control_node.cpp:242:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[3.859116] (yhs_can_control) StderrLine: {'line': b'  242 |         \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(node->get_logger(), "Raw Data: %02X %02X %02X %02X %02X %02X %02X %02X",\n'}
+[3.859218] (yhs_can_control) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.859320] (yhs_can_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jenter/package/work/src/yhs_can_control/src/yhs_can_control_node.cpp:242:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[3.859445] (yhs_can_control) StderrLine: {'line': b'  242 |         \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(node->get_logger(), "Raw Data: %02X %02X %02X %02X %02X %02X %02X %02X",\n'}
+[3.859555] (yhs_can_control) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.913947] (-) TimerEvent: {}
+[4.014346] (-) TimerEvent: {}
+[4.114751] (-) TimerEvent: {}
+[4.215159] (-) TimerEvent: {}
+[4.315563] (-) TimerEvent: {}
+[4.415963] (-) TimerEvent: {}
+[4.516366] (-) TimerEvent: {}
+[4.616799] (-) TimerEvent: {}
+[4.717275] (-) TimerEvent: {}
+[4.817678] (-) TimerEvent: {}
+[4.918101] (-) TimerEvent: {}
+[5.018516] (-) TimerEvent: {}
+[5.118933] (-) TimerEvent: {}
+[5.219383] (-) TimerEvent: {}
+[5.319790] (-) TimerEvent: {}
+[5.420195] (-) TimerEvent: {}
+[5.520626] (-) TimerEvent: {}
+[5.621079] (-) TimerEvent: {}
+[5.721549] (-) TimerEvent: {}
+[5.822011] (-) TimerEvent: {}
+[5.922497] (-) TimerEvent: {}
+[6.022993] (-) TimerEvent: {}
+[6.123455] (-) TimerEvent: {}
+[6.223870] (-) TimerEvent: {}
+[6.324299] (-) TimerEvent: {}
+[6.424704] (-) TimerEvent: {}
+[6.525107] (-) TimerEvent: {}
+[6.625540] (-) TimerEvent: {}
+[6.725968] (-) TimerEvent: {}
+[6.826375] (-) TimerEvent: {}
+[6.926778] (-) TimerEvent: {}
+[7.027181] (-) TimerEvent: {}
+[7.127587] (-) TimerEvent: {}
+[7.227991] (-) TimerEvent: {}
+[7.328407] (-) TimerEvent: {}
+[7.428812] (-) TimerEvent: {}
+[7.529222] (-) TimerEvent: {}
+[7.629631] (-) TimerEvent: {}
+[7.730031] (-) TimerEvent: {}
+[7.830431] (-) TimerEvent: {}
+[7.930795] (-) TimerEvent: {}
+[8.031205] (-) TimerEvent: {}
+[8.131610] (-) TimerEvent: {}
+[8.232022] (-) TimerEvent: {}
+[8.332418] (-) TimerEvent: {}
+[8.432822] (-) TimerEvent: {}
+[8.533244] (-) TimerEvent: {}
+[8.633655] (-) TimerEvent: {}
+[8.734060] (-) TimerEvent: {}
+[8.834467] (-) TimerEvent: {}
+[8.882225] (yhs_can_control) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/yhs_can_control_node.dir/build.make:76: CMakeFiles/yhs_can_control_node.dir/src/yhs_can_control_node.cpp.o] Error 1\n'}
+[8.882669] (yhs_can_control) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/yhs_can_control_node.dir/all] Error 2\n'}
+[8.882826] (yhs_can_control) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[8.885233] (yhs_can_control) CommandEnded: {'returncode': 2}
+[8.901811] (yhs_can_control) JobEnded: {'identifier': 'yhs_can_control', 'rc': 2}
+[8.903007] (-) EventReactorShutdown: {}

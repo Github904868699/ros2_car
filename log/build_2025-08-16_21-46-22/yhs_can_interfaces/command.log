@@ -1,0 +1,4 @@
+Invoking command in '/home/jenter/package/work/build/yhs_can_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jenter/package/work/build/yhs_can_interfaces -- -j4 -l4
+Invoked command in '/home/jenter/package/work/build/yhs_can_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jenter/package/work/build/yhs_can_interfaces -- -j4 -l4
+Invoking command in '/home/jenter/package/work/build/yhs_can_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jenter/package/work/build/yhs_can_interfaces
+Invoked command in '/home/jenter/package/work/build/yhs_can_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jenter/package/work/build/yhs_can_interfaces

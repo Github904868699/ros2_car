@@ -1,0 +1,28 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from yhs_can_interfaces/msg/MotorFb.msg
+// generated code does not contain a copyright notice
+
+
+module yhs_can_interfaces {
+  module msg {
+    struct MotorFb {
+      boolean motor_cmd_drive_enable_lf;
+
+      boolean motor_cmd_drive_enable_lr;
+
+      boolean motor_cmd_drive_enable_rf;
+
+      boolean motor_cmd_drive_enable_rr;
+
+      boolean motor_cmd_steering_enable_lf;
+
+      boolean motor_cmd_steering_enable_lr;
+
+      boolean motor_cmd_steering_enable_rf;
+
+      boolean motor_cmd_steering_enable_rr;
+
+      boolean motor_cmd_power_restart;
+    };
+  };
+};

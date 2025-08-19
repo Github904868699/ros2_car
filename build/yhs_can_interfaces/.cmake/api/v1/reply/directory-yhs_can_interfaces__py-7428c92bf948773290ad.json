@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "yhs_can_interfaces__py",
+		"source" : "/home/jenter/package/work/build/yhs_can_interfaces/yhs_can_interfaces__py"
+	}
+}

@@ -1,0 +1,71 @@
+[0.012s] Invoking command in '/home/jenter/package/work/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/jenter/package/work/src/serial_ros2 -DCMAKE_INSTALL_PREFIX=/home/jenter/package/work/install/serial
+[0.077s] -- The C compiler identification is GNU 11.4.0
+[0.146s] -- The CXX compiler identification is GNU 11.4.0
+[0.154s] -- Detecting C compiler ABI info
+[0.235s] -- Detecting C compiler ABI info - done
+[0.246s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.247s] -- Detecting C compile features
+[0.247s] -- Detecting C compile features - done
+[0.252s] -- Detecting CXX compiler ABI info
+[0.346s] -- Detecting CXX compiler ABI info - done
+[0.357s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.358s] -- Detecting CXX compile features
+[0.358s] -- Detecting CXX compile features - done
+[0.361s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.362s] -- Found ament_cmake_core: 1.3.12 (/opt/ros/humble/share/ament_cmake_core/cmake)
+[0.556s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.645s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.654s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.731s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.863s] -- Configuring done
+[0.869s] -- Generating done
+[0.873s] -- Build files have been written to: /home/jenter/package/work/build/serial
+[0.879s] Invoked command in '/home/jenter/package/work/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/jenter/package/work/src/serial_ros2 -DCMAKE_INSTALL_PREFIX=/home/jenter/package/work/install/serial
+[0.882s] Invoking command in '/home/jenter/package/work/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jenter/package/work/build/serial -- -j4 -l4
+[0.938s] [ 75%] [32mBuilding CXX object CMakeFiles/serial.dir/src/impl/list_ports/list_ports_linux.cc.o[0m
+[0.939s] [ 75%] [32mBuilding CXX object CMakeFiles/serial.dir/src/impl/unix.cc.o[0m
+[0.939s] [ 75%] [32mBuilding CXX object CMakeFiles/serial.dir/src/serial.cc.o[0m
+[1.485s] [01m[K/home/jenter/package/work/src/serial_ros2/src/impl/list_ports/list_ports_linux.cc:[m[K In function ‘[01m[Kstd::vector<std::__cxx11::basic_string<char> > glob(const std::vector<std::__cxx11::basic_string<char> >&)[m[K’:
+[1.485s] [01m[K/home/jenter/package/work/src/serial_ros2/src/impl/list_ports/list_ports_linux.cc:66:40:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[1.485s]    66 |     for(int path_index = 0; [01;35m[Kpath_index < glob_results.gl_pathc[m[K; path_index++)
+[1.485s]       |                             [01;35m[K~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.486s] [01m[K/home/jenter/package/work/src/serial_ros2/src/impl/list_ports/list_ports_linux.cc:57:9:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kglob_retval[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+[1.486s]    57 |     int [01;35m[Kglob_retval[m[K = glob(patterns[0].c_str(), 0, NULL, &glob_results);
+[1.486s]       |         [01;35m[K^~~~~~~~~~~[m[K
+[1.492s] [01m[K/home/jenter/package/work/src/serial_ros2/src/impl/list_ports/list_ports_linux.cc:[m[K In function ‘[01m[Kstd::string format(const char*, ...)[m[K’:
+[1.492s] [01m[K/home/jenter/package/work/src/serial_ros2/src/impl/list_ports/list_ports_linux.cc:246:31:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[1.493s]   246 |         else if( [01;35m[Kreturn_value >= buffer_size_bytes[m[K )
+[1.493s]       |                  [01;35m[K~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~[m[K
+[1.863s] [100%] [32m[1mLinking CXX static library libserial.a[0m
+[1.904s] [100%] Built target serial
+[1.917s] Invoked command in '/home/jenter/package/work/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jenter/package/work/build/serial -- -j4 -l4
+[1.929s] Invoking command in '/home/jenter/package/work/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jenter/package/work/build/serial
+[1.937s] -- Install configuration: ""
+[1.937s] -- Installing: /home/jenter/package/work/install/serial/lib/libserial.a
+[1.938s] -- Installing: /home/jenter/package/work/install/serial/share/serial/environment/library_path.sh
+[1.938s] -- Installing: /home/jenter/package/work/install/serial/share/serial/environment/library_path.dsv
+[1.938s] -- Installing: /home/jenter/package/work/install/serial/include/serial
+[1.939s] -- Installing: /home/jenter/package/work/install/serial/include/serial/serial.h
+[1.939s] -- Installing: /home/jenter/package/work/install/serial/include/serial/impl
+[1.939s] -- Installing: /home/jenter/package/work/install/serial/include/serial/impl/unix.h
+[1.939s] -- Installing: /home/jenter/package/work/install/serial/include/serial/impl/win.h
+[1.939s] -- Installing: /home/jenter/package/work/install/serial/include/serial/v8stdint.h
+[1.939s] -- Installing: /home/jenter/package/work/install/serial/share/ament_index/resource_index/package_run_dependencies/serial
+[1.940s] -- Installing: /home/jenter/package/work/install/serial/share/ament_index/resource_index/parent_prefix_path/serial
+[1.940s] -- Installing: /home/jenter/package/work/install/serial/share/serial/environment/ament_prefix_path.sh
+[1.940s] -- Installing: /home/jenter/package/work/install/serial/share/serial/environment/ament_prefix_path.dsv
+[1.940s] -- Installing: /home/jenter/package/work/install/serial/share/serial/environment/path.sh
+[1.940s] -- Installing: /home/jenter/package/work/install/serial/share/serial/environment/path.dsv
+[1.940s] -- Installing: /home/jenter/package/work/install/serial/share/serial/local_setup.bash
+[1.941s] -- Installing: /home/jenter/package/work/install/serial/share/serial/local_setup.sh
+[1.941s] -- Installing: /home/jenter/package/work/install/serial/share/serial/local_setup.zsh
+[1.941s] -- Installing: /home/jenter/package/work/install/serial/share/serial/local_setup.dsv
+[1.941s] -- Installing: /home/jenter/package/work/install/serial/share/serial/package.dsv
+[1.941s] -- Installing: /home/jenter/package/work/install/serial/share/ament_index/resource_index/packages/serial
+[1.941s] -- Installing: /home/jenter/package/work/install/serial/share/serial/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.942s] -- Installing: /home/jenter/package/work/install/serial/share/serial/cmake/ament_cmake_export_libraries-extras.cmake
+[1.942s] -- Installing: /home/jenter/package/work/install/serial/share/serial/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.942s] -- Installing: /home/jenter/package/work/install/serial/share/serial/cmake/serialConfig.cmake
+[1.942s] -- Installing: /home/jenter/package/work/install/serial/share/serial/cmake/serialConfig-version.cmake
+[1.943s] -- Installing: /home/jenter/package/work/install/serial/share/serial/package.xml
+[1.945s] Invoked command in '/home/jenter/package/work/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jenter/package/work/build/serial

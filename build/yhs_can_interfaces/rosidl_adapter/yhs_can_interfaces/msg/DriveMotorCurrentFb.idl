@@ -1,0 +1,26 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from yhs_can_interfaces/msg/DriveMotorCurrentFb.msg
+// generated code does not contain a copyright notice
+
+
+module yhs_can_interfaces {
+  module msg {
+    struct DriveMotorCurrentFb {
+      float drive_motor_current_fb_lf;
+
+      float drive_motor_current_fb_lr;
+
+      float drive_motor_current_fb_rf;
+
+      float drive_motor_current_fb_rr;
+
+      boolean drive_motor_oc_flag_fb_lf;
+
+      boolean drive_motor_oc_flag_fb_lr;
+
+      boolean drive_motor_oc_flag_fb_rf;
+
+      boolean drive_motor_oc_flag_fb_rr;
+    };
+  };
+};

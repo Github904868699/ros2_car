@@ -1,0 +1,26 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from yhs_can_interfaces/msg/SteeringMotorCurrentFb.msg
+// generated code does not contain a copyright notice
+
+
+module yhs_can_interfaces {
+  module msg {
+    struct SteeringMotorCurrentFb {
+      float steering_motor_current_fb_lf;
+
+      float steering_motor_current_fb_lr;
+
+      float steering_motor_current_fb_rf;
+
+      float steering_motor_current_fb_rr;
+
+      boolean steering_motor_oc_flag_fb_lf;
+
+      boolean steering_motor_oc_flag_fb_lr;
+
+      boolean steering_motor_oc_flag_fb_rf;
+
+      boolean steering_motor_oc_flag_fb_rr;
+    };
+  };
+};

@@ -1,0 +1,26 @@
+{
+  "package_name": "yhs_can_interfaces",
+  "non_idl_tuples": [
+    "/home/jenter/package/work/src/yhs_can_interfaces:msg/BmsFlagFb.msg",
+    "/home/jenter/package/work/src/yhs_can_interfaces:msg/BmsFb.msg",
+    "/home/jenter/package/work/src/yhs_can_interfaces:msg/ChassisInfoFb.msg",
+    "/home/jenter/package/work/src/yhs_can_interfaces:msg/CtrlCmd.msg",
+    "/home/jenter/package/work/src/yhs_can_interfaces:msg/CtrlFb.msg",
+    "/home/jenter/package/work/src/yhs_can_interfaces:msg/SteeringCtrlCmd.msg",
+    "/home/jenter/package/work/src/yhs_can_interfaces:msg/SteeringCtrlFb.msg",
+    "/home/jenter/package/work/src/yhs_can_interfaces:msg/FrontAngleFb.msg",
+    "/home/jenter/package/work/src/yhs_can_interfaces:msg/IoCmd.msg",
+    "/home/jenter/package/work/src/yhs_can_interfaces:msg/IoFb.msg",
+    "/home/jenter/package/work/src/yhs_can_interfaces:msg/LrWheelFb.msg",
+    "/home/jenter/package/work/src/yhs_can_interfaces:msg/RrWheelFb.msg",
+    "/home/jenter/package/work/src/yhs_can_interfaces:msg/LfWheelFb.msg",
+    "/home/jenter/package/work/src/yhs_can_interfaces:msg/RfWheelFb.msg",
+    "/home/jenter/package/work/src/yhs_can_interfaces:msg/RearAngleFb.msg",
+    "/home/jenter/package/work/src/yhs_can_interfaces:msg/Ultrasonic.msg",
+    "/home/jenter/package/work/src/yhs_can_interfaces:msg/ErrorFb.msg",
+    "/home/jenter/package/work/src/yhs_can_interfaces:msg/MotorCmd.msg",
+    "/home/jenter/package/work/src/yhs_can_interfaces:msg/MotorFb.msg",
+    "/home/jenter/package/work/src/yhs_can_interfaces:msg/DriveMotorCurrentFb.msg",
+    "/home/jenter/package/work/src/yhs_can_interfaces:msg/SteeringMotorCurrentFb.msg"
+  ]
+}

@@ -1,0 +1,6 @@
+Invoking command in '/home/jenter/package/work/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/jenter/package/work/src/serial_ros2 -DCMAKE_INSTALL_PREFIX=/home/jenter/package/work/install/serial
+Invoked command in '/home/jenter/package/work/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/jenter/package/work/src/serial_ros2 -DCMAKE_INSTALL_PREFIX=/home/jenter/package/work/install/serial
+Invoking command in '/home/jenter/package/work/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jenter/package/work/build/serial -- -j4 -l4
+Invoked command in '/home/jenter/package/work/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jenter/package/work/build/serial -- -j4 -l4
+Invoking command in '/home/jenter/package/work/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jenter/package/work/build/serial
+Invoked command in '/home/jenter/package/work/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jenter/package/work/build/serial

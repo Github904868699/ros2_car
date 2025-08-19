@@ -1,0 +1,346 @@
+[0.000000] (-) TimerEvent: {}
+[0.000432] (-) JobUnselected: {'identifier': 'serial'}
+[0.000597] (-) JobUnselected: {'identifier': 'yesense_interface'}
+[0.000651] (-) JobUnselected: {'identifier': 'yesense_std_ros2'}
+[0.000689] (bluesea2) JobQueued: {'identifier': 'bluesea2', 'dependencies': OrderedDict()}
+[0.000732] (bluesea2) JobStarted: {'identifier': 'bluesea2'}
+[0.009186] (bluesea2) JobProgress: {'identifier': 'bluesea2', 'progress': 'cmake'}
+[0.009736] (bluesea2) Command: {'cmd': ['/usr/bin/cmake', '/home/jenter/package/work/src/bluesea-ros2', '-DCMAKE_INSTALL_PREFIX=/home/jenter/package/work/install/bluesea2'], 'cwd': '/home/jenter/package/work/build/bluesea2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jenter'), ('SSH_CLIENT', '192.168.10.111 53952 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/jenter'), ('OLDPWD', '/home/jenter/package/work/src'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/jenter/package/work/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jenter'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'vt100'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/jenter/package/work/install/bluesea2:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('PWD', '/home/jenter/package/work/build/bluesea2'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.10.111 53952 192.168.10.120 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/jenter/package/work/install/bluesea2:/opt/ros/humble')]), 'shell': False}
+[0.077940] (bluesea2) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.099159] (-) TimerEvent: {}
+[0.146383] (bluesea2) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.155099] (bluesea2) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.199283] (-) TimerEvent: {}
+[0.236949] (bluesea2) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.248120] (bluesea2) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.248524] (bluesea2) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.249112] (bluesea2) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.253442] (bluesea2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.299443] (-) TimerEvent: {}
+[0.347330] (bluesea2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.358964] (bluesea2) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.359383] (bluesea2) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.360013] (bluesea2) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.362552] (bluesea2) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.399587] (-) TimerEvent: {}
+[0.499942] (-) TimerEvent: {}
+[0.559370] (bluesea2) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.600093] (-) TimerEvent: {}
+[0.670003] (bluesea2) StdoutLine: {'line': b'-- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.700222] (-) TimerEvent: {}
+[0.718906] (bluesea2) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.724662] (bluesea2) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.734848] (bluesea2) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.750367] (bluesea2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.770896] (bluesea2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.800348] (-) TimerEvent: {}
+[0.825596] (bluesea2) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.828488] (bluesea2) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.900472] (-) TimerEvent: {}
+[0.921065] (bluesea2) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.953728] (bluesea2) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.000591] (-) TimerEvent: {}
+[1.003157] (bluesea2) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.012827] (bluesea2) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.098472] (bluesea2) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.099042] (bluesea2) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.100671] (-) TimerEvent: {}
+[1.187903] (bluesea2) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.189592] (bluesea2) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.200813] (-) TimerEvent: {}
+[1.260497] (bluesea2) StdoutLine: {'line': b'-- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[1.300954] (-) TimerEvent: {}
+[1.303718] (bluesea2) StdoutLine: {'line': b'-- Found visualization_msgs: 4.9.0 (/opt/ros/humble/share/visualization_msgs/cmake)\n'}
+[1.332226] (bluesea2) StdoutLine: {'line': b'-- Found std_srvs: 4.9.0 (/opt/ros/humble/share/std_srvs/cmake)\n'}
+[1.349632] (bluesea2) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.401112] (-) TimerEvent: {}
+[1.454276] (bluesea2) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.458165] (bluesea2) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.459009] (bluesea2) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/jenter/package/work/src/bluesea-ros2/include>\n'}
+[1.459156] (bluesea2) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.462676] (bluesea2) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[1.462843] (bluesea2) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[1.463673] (bluesea2) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[1.464925] (bluesea2) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.465865] (bluesea2) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[1.469432] (bluesea2) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.469597] (bluesea2) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.470388] (bluesea2) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.471860] (bluesea2) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.490779] (bluesea2) StdoutLine: {'line': b'-- Generating done\n'}
+[1.500017] (bluesea2) StdoutLine: {'line': b'-- Build files have been written to: /home/jenter/package/work/build/bluesea2\n'}
+[1.501243] (-) TimerEvent: {}
+[1.512903] (bluesea2) CommandEnded: {'returncode': 0}
+[1.513646] (bluesea2) JobProgress: {'identifier': 'bluesea2', 'progress': 'build'}
+[1.515680] (bluesea2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jenter/package/work/build/bluesea2', '--', '-j4', '-l4'], 'cwd': '/home/jenter/package/work/build/bluesea2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jenter'), ('SSH_CLIENT', '192.168.10.111 53952 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/jenter'), ('OLDPWD', '/home/jenter/package/work/src'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/jenter/package/work/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jenter'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'vt100'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/jenter/package/work/install/bluesea2:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('PWD', '/home/jenter/package/work/build/bluesea2'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.10.111 53952 192.168.10.120 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/jenter/package/work/install/bluesea2:/opt/ros/humble')]), 'shell': False}
+[1.579070] (bluesea2) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/bluesea_node.dir/src/uart_reader.cpp.o\x1b[0m\n'}
+[1.579563] (bluesea2) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/bluesea_node.dir/src/parser.cpp.o\x1b[0m\n'}
+[1.579776] (bluesea2) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/bluesea_node_client.dir/src/bluesea_client.cpp.o\x1b[0m\n'}
+[1.579957] (bluesea2) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/bluesea_node.dir/src/bluesea_node.cpp.o\x1b[0m\n'}
+[1.601414] (-) TimerEvent: {}
+[1.701910] (-) TimerEvent: {}
+[1.802411] (-) TimerEvent: {}
+[1.902941] (-) TimerEvent: {}
+[2.003498] (-) TimerEvent: {}
+[2.104027] (-) TimerEvent: {}
+[2.204572] (-) TimerEvent: {}
+[2.305136] (-) TimerEvent: {}
+[2.312992] (bluesea2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jenter/package/work/src/bluesea-ros2/src/uart_reader.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kbool uart_talk(int, int, const char*, int, const char*, int, char*, int, int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.313607] (bluesea2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jenter/package/work/src/bluesea-ros2/src/uart_reader.cpp:38:36:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kunsigned int\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.314005] (bluesea2) StderrLine: {'line': b'   38 |         for (unsigned int i = 0; \x1b[01;35m\x1b[Ki < CacheLength - nhdr - nfetch\x1b[m\x1b[K; i++)\n'}
+[2.314370] (bluesea2) StderrLine: {'line': b'      |                                  \x1b[01;35m\x1b[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.316499] (bluesea2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jenter/package/work/src/bluesea-ros2/src/parser.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint autoGetFirstAngle(RawData, bool, std::vector<RawData>&, std::string&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.316916] (bluesea2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jenter/package/work/src/bluesea-ros2/src/parser.cpp:1385:92:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kresult\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.317127] (bluesea2) StderrLine: {'line': b' 1385 | int autoGetFirstAngle(RawData raw, bool from_zero, std::vector<RawData> &raws,\x1b[01;35m\x1b[Kstd::string &result\x1b[m\x1b[K)\n'}
+[2.317309] (bluesea2) StderrLine: {'line': b'      |                                                                               \x1b[01;35m\x1b[K~~~~~~~~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[2.318502] (bluesea2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jenter/package/work/src/bluesea-ros2/src/uart_reader.cpp:37:14:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kres\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.318908] (bluesea2) StderrLine: {'line': b'   37 |         bool \x1b[01;35m\x1b[Kres\x1b[m\x1b[K=false;\n'}
+[2.319253] (bluesea2) StderrLine: {'line': b'      |              \x1b[01;35m\x1b[K^~~\x1b[m\x1b[K\n'}
+[2.321473] (bluesea2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jenter/package/work/src/bluesea-ros2/src/uart_reader.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kbool vpc_talk(int, int, short int, int, const char*, int, void*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.321923] (bluesea2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jenter/package/work/src/bluesea-ros2/src/uart_reader.cpp:154:93:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison is always true due to limited range of data type [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wtype-limits\x07-Wtype-limits\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.322273] (bluesea2) StderrLine: {'line': b'  154 |                                                 if ((buf[i + j + 8] >= 33 && \x1b[01;35m\x1b[Kbuf[i + j + 8] <= 127\x1b[m\x1b[K))\n'}
+[2.322620] (bluesea2) StderrLine: {'line': b'      |                                                                              \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[2.327735] (bluesea2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jenter/package/work/src/bluesea-ros2/src/uart_reader.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kbool setup_lidar_uart(HParser, int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.328294] (bluesea2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jenter/package/work/src/bluesea-ros2/src/uart_reader.cpp:285:14:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kvariable \xe2\x80\x98\x1b[01m\x1b[Kresult\x1b[m\x1b[K\xe2\x80\x99 set but not used [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable\x07-Wunused-but-set-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.328649] (bluesea2) StderrLine: {'line': b'  285 |         char \x1b[01;35m\x1b[Kresult\x1b[m\x1b[K[3] = {0};\n'}
+[2.328946] (bluesea2) StderrLine: {'line': b'      |              \x1b[01;35m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[2.402886] (bluesea2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jenter/package/work/src/bluesea-ros2/src/uart_reader.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kbool uart_talk(int, int, const char*, int, const char*, int, char*, int, int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.403468] (bluesea2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jenter/package/work/src/bluesea-ros2/src/uart_reader.cpp:57:56:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kchar* strncpy(char*, const char*, size_t)\x1b[m\x1b[K\xe2\x80\x99 output truncated before terminating nul copying 2 bytes from a string of the same length [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wstringop-truncation\x07-Wstringop-truncation\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.403858] (bluesea2) StderrLine: {'line': b'   57 |                                                 \x1b[01;35m\x1b[Kstrncpy(fetch, "OK", 2)\x1b[m\x1b[K;\n'}
+[2.404209] (bluesea2) StderrLine: {'line': b'      |                                                 \x1b[01;35m\x1b[K~~~~~~~^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.404756] (bluesea2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jenter/package/work/src/bluesea-ros2/src/uart_reader.cpp:62:56:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kchar* strncpy(char*, const char*, size_t)\x1b[m\x1b[K\xe2\x80\x99 output truncated before terminating nul copying 2 bytes from a string of the same length [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wstringop-truncation\x07-Wstringop-truncation\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.405156] (bluesea2) StderrLine: {'line': b'   62 |                                                 \x1b[01;35m\x1b[Kstrncpy(fetch, "NG", 2)\x1b[m\x1b[K;\n'}
+[2.405357] (-) TimerEvent: {}
+[2.405732] (bluesea2) StderrLine: {'line': b'      |                                                 \x1b[01;35m\x1b[K~~~~~~~^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.406191] (bluesea2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jenter/package/work/src/bluesea-ros2/src/uart_reader.cpp:68:48:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kchar* strncpy(char*, const char*, size_t)\x1b[m\x1b[K\xe2\x80\x99 output truncated before terminating nul copying 2 bytes from a string of the same length [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wstringop-truncation\x07-Wstringop-truncation\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.406531] (bluesea2) StderrLine: {'line': b'   68 |                                         \x1b[01;35m\x1b[Kstrncpy(fetch, "OK", 2)\x1b[m\x1b[K;\n'}
+[2.406864] (bluesea2) StderrLine: {'line': b'      |                                         \x1b[01;35m\x1b[K~~~~~~~^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.505539] (-) TimerEvent: {}
+[2.523189] (bluesea2) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/bluesea_node.dir/src/udp_reader.cpp.o\x1b[0m\n'}
+[2.605708] (-) TimerEvent: {}
+[2.706283] (-) TimerEvent: {}
+[2.709751] (bluesea2) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/bluesea_node.dir/src/tcp_reader.cpp.o\x1b[0m\n'}
+[2.806449] (-) TimerEvent: {}
+[2.907034] (-) TimerEvent: {}
+[3.007622] (-) TimerEvent: {}
+[3.108277] (-) TimerEvent: {}
+[3.208887] (-) TimerEvent: {}
+[3.308163] (bluesea2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jenter/package/work/src/bluesea-ros2/src/udp_reader.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid* UdpThreadProc(void*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.308675] (bluesea2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jenter/package/work/src/bluesea-ros2/src/udp_reader.cpp:148:13:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kerror_num\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.308897] (-) TimerEvent: {}
+[3.309211] (bluesea2) StderrLine: {'line': b'  148 |         int \x1b[01;35m\x1b[Kerror_num\x1b[m\x1b[K = 0;\n'}
+[3.309467] (bluesea2) StderrLine: {'line': b'      |             \x1b[01;35m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[3.409091] (-) TimerEvent: {}
+[3.506407] (bluesea2) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/bluesea_node.dir/src/algorithmAPI.cpp.o\x1b[0m\n'}
+[3.509241] (-) TimerEvent: {}
+[3.609762] (-) TimerEvent: {}
+[3.622633] (bluesea2) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding C object CMakeFiles/bluesea_node.dir/src/uart.c.o\x1b[0m\n'}
+[3.697417] (bluesea2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jenter/package/work/src/bluesea-ros2/src/uart.c:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kchange_baud\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.697860] (bluesea2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jenter/package/work/src/bluesea-ros2/src/uart.c:31:21:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Ktaking the absolute value of unsigned type \xe2\x80\x98\x1b[01m\x1b[Kspeed_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kunsigned int\x1b[m\x1b[K\xe2\x80\x99} has no effect [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wabsolute-value\x07-Wabsolute-value\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.698101] (bluesea2) StderrLine: {'line': b'   31 |                 if (\x1b[01;35m\x1b[Kabs\x1b[m\x1b[K(t.c_ospeed - baud) <= 20000)\n'}
+[3.698281] (bluesea2) StderrLine: {'line': b'      |                     \x1b[01;35m\x1b[K^~~\x1b[m\x1b[K\n'}
+[3.709928] (-) TimerEvent: {}
+[3.810446] (-) TimerEvent: {}
+[3.910989] (-) TimerEvent: {}
+[4.011513] (-) TimerEvent: {}
+[4.112040] (-) TimerEvent: {}
+[4.212610] (-) TimerEvent: {}
+[4.313136] (-) TimerEvent: {}
+[4.346446] (bluesea2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jenter/package/work/src/bluesea-ros2/src/algorithmAPI.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kbool checkWindowValid2(std::vector<DataPoint>, size_t, size_t, double, double)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.346877] (bluesea2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jenter/package/work/src/bluesea-ros2/src/algorithmAPI.cpp:16:58:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.347109] (bluesea2) StderrLine: {'line': b'   16 |     if (j < 0 || j >= static_cast<int>(scan.size())||\x1b[01;35m\x1b[Kidx == j\x1b[m\x1b[K)\n'}
+[4.347281] (bluesea2) StderrLine: {'line': b'      |                                                      \x1b[01;35m\x1b[K~~~~^~~~\x1b[m\x1b[K\n'}
+[4.347568] (bluesea2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jenter/package/work/src/bluesea-ros2/src/algorithmAPI.cpp:32:21:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.347791] (bluesea2) StderrLine: {'line': b'   32 |   if (\x1b[01;35m\x1b[Knum_neighbors < window\x1b[m\x1b[K)\n'}
+[4.347961] (bluesea2) StderrLine: {'line': b'      |       \x1b[01;35m\x1b[K~~~~~~~~~~~~~~^~~~~~~~\x1b[m\x1b[K\n'}
+[4.353681] (bluesea2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jenter/package/work/src/bluesea-ros2/src/algorithmAPI.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kbool filter(std::vector<DataPoint>&, int, double, double, double, int, double)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.354059] (bluesea2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jenter/package/work/src/bluesea-ros2/src/algorithmAPI.cpp:47:26:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<DataPoint>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.354265] (bluesea2) StderrLine: {'line': b'   47 |   if (\x1b[01;35m\x1b[Koutput_scan.size() <= filter_window + 1\x1b[m\x1b[K)\n'}
+[4.354425] (bluesea2) StderrLine: {'line': b'      |       \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.354951] (bluesea2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jenter/package/work/src/bluesea-ros2/src/algorithmAPI.cpp:43:55:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kfilter_type\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.355351] (bluesea2) StderrLine: {'line': b'   43 | bool filter(std::vector<DataPoint>  &output_scan, \x1b[01;35m\x1b[Kint filter_type\x1b[m\x1b[K, double max_range, double min_range, double max_range_difference, int filter_window,double angle_increment)\n'}
+[4.355581] (bluesea2) StderrLine: {'line': b'      |                                                   \x1b[01;35m\x1b[K~~~~^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.355954] (bluesea2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jenter/package/work/src/bluesea-ros2/src/algorithmAPI.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kbool checkZeroDistance(std::vector<DataPoint>, float)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.356201] (bluesea2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jenter/package/work/src/bluesea-ros2/src/algorithmAPI.cpp:97:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<DataPoint>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.356387] (bluesea2) StderrLine: {'line': b'   97 |   for(int i=0;\x1b[01;35m\x1b[Ki<data.size()\x1b[m\x1b[K;i++)\n'}
+[4.356543] (bluesea2) StderrLine: {'line': b'      |               \x1b[01;35m\x1b[K~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.356694] (bluesea2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jenter/package/work/src/bluesea-ros2/src/algorithmAPI.cpp:95:8:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kresult\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.356852] (bluesea2) StderrLine: {'line': b'   95 |   bool \x1b[01;35m\x1b[Kresult\x1b[m\x1b[K=true;\n'}
+[4.357005] (bluesea2) StderrLine: {'line': b'      |        \x1b[01;35m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[4.413333] (-) TimerEvent: {}
+[4.514182] (-) TimerEvent: {}
+[4.615015] (-) TimerEvent: {}
+[4.715842] (-) TimerEvent: {}
+[4.816695] (-) TimerEvent: {}
+[4.917193] (-) TimerEvent: {}
+[5.017693] (-) TimerEvent: {}
+[5.118193] (-) TimerEvent: {}
+[5.218678] (-) TimerEvent: {}
+[5.319169] (-) TimerEvent: {}
+[5.419662] (-) TimerEvent: {}
+[5.520181] (-) TimerEvent: {}
+[5.620669] (-) TimerEvent: {}
+[5.721163] (-) TimerEvent: {}
+[5.821670] (-) TimerEvent: {}
+[5.922210] (-) TimerEvent: {}
+[6.022725] (-) TimerEvent: {}
+[6.123276] (-) TimerEvent: {}
+[6.223817] (-) TimerEvent: {}
+[6.324419] (-) TimerEvent: {}
+[6.424971] (-) TimerEvent: {}
+[6.525482] (-) TimerEvent: {}
+[6.625974] (-) TimerEvent: {}
+[6.726469] (-) TimerEvent: {}
+[6.826968] (-) TimerEvent: {}
+[6.927473] (-) TimerEvent: {}
+[7.027975] (-) TimerEvent: {}
+[7.128496] (-) TimerEvent: {}
+[7.228989] (-) TimerEvent: {}
+[7.329484] (-) TimerEvent: {}
+[7.429983] (-) TimerEvent: {}
+[7.530483] (-) TimerEvent: {}
+[7.630972] (-) TimerEvent: {}
+[7.731466] (-) TimerEvent: {}
+[7.831964] (-) TimerEvent: {}
+[7.932464] (-) TimerEvent: {}
+[8.032962] (-) TimerEvent: {}
+[8.133473] (-) TimerEvent: {}
+[8.233975] (-) TimerEvent: {}
+[8.334463] (-) TimerEvent: {}
+[8.434955] (-) TimerEvent: {}
+[8.535435] (-) TimerEvent: {}
+[8.635919] (-) TimerEvent: {}
+[8.736416] (-) TimerEvent: {}
+[8.836921] (-) TimerEvent: {}
+[8.937405] (-) TimerEvent: {}
+[9.037926] (-) TimerEvent: {}
+[9.138415] (-) TimerEvent: {}
+[9.236282] (bluesea2) StdoutLine: {'line': b'[ 90%] \x1b[32m\x1b[1mLinking CXX executable bluesea_node_client\x1b[0m\n'}
+[9.238579] (-) TimerEvent: {}
+[9.339024] (-) TimerEvent: {}
+[9.439485] (-) TimerEvent: {}
+[9.527564] (bluesea2) StdoutLine: {'line': b'[ 90%] Built target bluesea_node_client\n'}
+[9.539670] (-) TimerEvent: {}
+[9.640096] (-) TimerEvent: {}
+[9.740515] (-) TimerEvent: {}
+[9.840913] (-) TimerEvent: {}
+[9.941311] (-) TimerEvent: {}
+[10.041698] (-) TimerEvent: {}
+[10.142102] (-) TimerEvent: {}
+[10.242493] (-) TimerEvent: {}
+[10.342874] (-) TimerEvent: {}
+[10.443266] (-) TimerEvent: {}
+[10.543660] (-) TimerEvent: {}
+[10.644053] (-) TimerEvent: {}
+[10.744405] (-) TimerEvent: {}
+[10.844782] (-) TimerEvent: {}
+[10.945196] (-) TimerEvent: {}
+[11.045588] (-) TimerEvent: {}
+[11.146019] (-) TimerEvent: {}
+[11.246451] (-) TimerEvent: {}
+[11.346924] (-) TimerEvent: {}
+[11.447351] (-) TimerEvent: {}
+[11.490522] (bluesea2) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable bluesea_node\x1b[0m\n'}
+[11.547522] (-) TimerEvent: {}
+[11.647970] (-) TimerEvent: {}
+[11.748373] (-) TimerEvent: {}
+[11.848785] (-) TimerEvent: {}
+[11.852073] (bluesea2) StdoutLine: {'line': b'[100%] Built target bluesea_node\n'}
+[11.865432] (bluesea2) CommandEnded: {'returncode': 0}
+[11.866235] (bluesea2) JobProgress: {'identifier': 'bluesea2', 'progress': 'install'}
+[11.877595] (bluesea2) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/jenter/package/work/build/bluesea2'], 'cwd': '/home/jenter/package/work/build/bluesea2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jenter'), ('SSH_CLIENT', '192.168.10.111 53952 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/jenter'), ('OLDPWD', '/home/jenter/package/work/src'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/jenter/package/work/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jenter'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'vt100'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/jenter/package/work/install/bluesea2:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('PWD', '/home/jenter/package/work/build/bluesea2'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.10.111 53952 192.168.10.120 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/jenter/package/work/install/bluesea2:/opt/ros/humble')]), 'shell': False}
+[11.886158] (bluesea2) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[11.886544] (bluesea2) StdoutLine: {'line': b'-- Installing: /home/jenter/package/work/install/bluesea2/lib/bluesea2/bluesea_node\n'}
+[11.888953] (bluesea2) StdoutLine: {'line': b'-- Set runtime path of "/home/jenter/package/work/install/bluesea2/lib/bluesea2/bluesea_node" to ""\n'}
+[11.889144] (bluesea2) StdoutLine: {'line': b'-- Installing: /home/jenter/package/work/install/bluesea2/lib/bluesea2/bluesea_node_client\n'}
+[11.890241] (bluesea2) StdoutLine: {'line': b'-- Set runtime path of "/home/jenter/package/work/install/bluesea2/lib/bluesea2/bluesea_node_client" to ""\n'}
+[11.890429] (bluesea2) StdoutLine: {'line': b'-- Installing: /home/jenter/package/work/install/bluesea2/share/bluesea2/launch\n'}
+[11.890648] (bluesea2) StdoutLine: {'line': b'-- Installing: /home/jenter/package/work/install/bluesea2/share/bluesea2/launch/LSS-40D-C20E.launch\n'}
+[11.891525] (bluesea2) StdoutLine: {'line': b'-- Installing: /home/jenter/package/work/install/bluesea2/share/bluesea2/launch/LDS-E310-R.launch\n'}
+[11.891794] (bluesea2) StdoutLine: {'line': b'-- Installing: /home/jenter/package/work/install/bluesea2/share/bluesea2/launch/LDS-E200-A.launch\n'}
+[11.892029] (bluesea2) StdoutLine: {'line': b'-- Installing: /home/jenter/package/work/install/bluesea2/share/bluesea2/launch/LDS-E330-S.launch\n'}
+[11.892427] (bluesea2) StdoutLine: {'line': b'-- Installing: /home/jenter/package/work/install/bluesea2/share/bluesea2/launch/LDS-50C-R.launch\n'}
+[11.892761] (bluesea2) StdoutLine: {'line': b'-- Installing: /home/jenter/package/work/install/bluesea2/share/bluesea2/launch/LDS-E120-R.launch\n'}
+[11.893094] (bluesea2) StdoutLine: {'line': b'-- Installing: /home/jenter/package/work/install/bluesea2/share/bluesea2/launch/LDS-15BDM.launch\n'}
+[11.893373] (bluesea2) StdoutLine: {'line': b'-- Installing: /home/jenter/package/work/install/bluesea2/share/bluesea2/launch/VPC.launch\n'}
+[11.893657] (bluesea2) StdoutLine: {'line': b'-- Installing: /home/jenter/package/work/install/bluesea2/share/bluesea2/launch/LDS-50C-C30E.launch\n'}
+[11.893935] (bluesea2) StdoutLine: {'line': b'-- Installing: /home/jenter/package/work/install/bluesea2/share/bluesea2/launch/LDS-15D-B25R.launch\n'}
+[11.894140] (bluesea2) StdoutLine: {'line': b'-- Installing: /home/jenter/package/work/install/bluesea2/share/bluesea2/launch/dual_lidar.launch\n'}
+[11.894372] (bluesea2) StdoutLine: {'line': b'-- Installing: /home/jenter/package/work/install/bluesea2/share/bluesea2/launch/LDS-E310-E.launch\n'}
+[11.894672] (bluesea2) StdoutLine: {'line': b'-- Installing: /home/jenter/package/work/install/bluesea2/share/bluesea2/launch/LDS-E200-R.launch\n'}
+[11.894966] (bluesea2) StdoutLine: {'line': b'-- Installing: /home/jenter/package/work/install/bluesea2/share/bluesea2/launch/LDS-E330-S-R.launch\n'}
+[11.895259] (bluesea2) StdoutLine: {'line': b'-- Installing: /home/jenter/package/work/install/bluesea2/share/bluesea2/launch/LDS-E200-E.launch\n'}
+[11.895631] (bluesea2) StdoutLine: {'line': b'-- Installing: /home/jenter/package/work/install/bluesea2/share/bluesea2/launch/LDS-E320-S.launch\n'}
+[11.895848] (bluesea2) StdoutLine: {'line': b'-- Installing: /home/jenter/package/work/install/bluesea2/share/bluesea2/launch/LDS-E300-E.launch\n'}
+[11.896211] (bluesea2) StdoutLine: {'line': b'-- Installing: /home/jenter/package/work/install/bluesea2/share/bluesea2/launch/LSS-40D-C30E_VPC.launch\n'}
+[11.896478] (bluesea2) StdoutLine: {'line': b'-- Installing: /home/jenter/package/work/install/bluesea2/share/bluesea2/launch/LDS-50C-C20E.launch\n'}
+[11.896747] (bluesea2) StdoutLine: {'line': b'-- Installing: /home/jenter/package/work/install/bluesea2/share/bluesea2/launch/LDS-50C-2.launch\n'}
+[11.897023] (bluesea2) StdoutLine: {'line': b'-- Installing: /home/jenter/package/work/install/bluesea2/share/bluesea2/launch/LDS-E300-R.launch\n'}
+[11.897326] (bluesea2) StdoutLine: {'line': b'-- Installing: /home/jenter/package/work/install/bluesea2/share/bluesea2/launch/LDS-E340-S.launch\n'}
+[11.897630] (bluesea2) StdoutLine: {'line': b'-- Installing: /home/jenter/package/work/install/bluesea2/share/bluesea2/launch/LDS-25D-B25R.launch\n'}
+[11.897904] (bluesea2) StdoutLine: {'line': b'-- Installing: /home/jenter/package/work/install/bluesea2/share/bluesea2/launch/LSS-40S-B20E44.launch\n'}
+[11.898213] (bluesea2) StdoutLine: {'line': b'-- Installing: /home/jenter/package/work/install/bluesea2/share/bluesea2/launch/LDS-E100-R.launch\n'}
+[11.898499] (bluesea2) StdoutLine: {'line': b'-- Installing: /home/jenter/package/work/install/bluesea2/share/bluesea2/launch/LDS-25BDM.launch\n'}
+[11.898804] (bluesea2) StdoutLine: {'line': b'-- Installing: /home/jenter/package/work/install/bluesea2/share/bluesea2/launch/LDS-50C-3.launch\n'}
+[11.899098] (bluesea2) StdoutLine: {'line': b'-- Installing: /home/jenter/package/work/install/bluesea2/share/bluesea2/launch/bluesea.py\n'}
+[11.899402] (bluesea2) StdoutLine: {'line': b'-- Installing: /home/jenter/package/work/install/bluesea2/share/bluesea2/launch/LES-10A-D40U44.launch\n'}
+[11.899733] (bluesea2) StdoutLine: {'line': b'-- Installing: /home/jenter/package/work/install/bluesea2/share/bluesea2/launch/LSS-40D-C30E.launch\n'}
+[11.900061] (bluesea2) StdoutLine: {'line': b'-- Installing: /home/jenter/package/work/install/bluesea2/share/bluesea2/launch/LDS-E340-E.launch\n'}
+[11.900414] (bluesea2) StdoutLine: {'line': b'-- Installing: /home/jenter/package/work/install/bluesea2/share/bluesea2/launch/LDS-50C-E.launch\n'}
+[11.900716] (bluesea2) StdoutLine: {'line': b'-- Installing: /home/jenter/package/work/install/bluesea2/share/bluesea2/launch/LDS-E400-E.launch\n'}
+[11.901051] (bluesea2) StdoutLine: {'line': b'-- Installing: /home/jenter/package/work/install/bluesea2/share/bluesea2/launch/test.launch\n'}
+[11.901405] (bluesea2) StdoutLine: {'line': b'-- Installing: /home/jenter/package/work/install/bluesea2/share/bluesea2/params\n'}
+[11.901605] (bluesea2) StdoutLine: {'line': b'-- Installing: /home/jenter/package/work/install/bluesea2/share/bluesea2/params/LDS-50C-C20E.yaml\n'}
+[11.901957] (bluesea2) StdoutLine: {'line': b'-- Installing: /home/jenter/package/work/install/bluesea2/share/bluesea2/params/LDS-15BDM-2.yaml\n'}
+[11.902295] (bluesea2) StdoutLine: {'line': b'-- Installing: /home/jenter/package/work/install/bluesea2/share/bluesea2/params/LDS-E310-R.yaml\n'}
+[11.902609] (bluesea2) StdoutLine: {'line': b'-- Installing: /home/jenter/package/work/install/bluesea2/share/bluesea2/params/LDS-E300-E.yaml\n'}
+[11.902921] (bluesea2) StdoutLine: {'line': b'-- Installing: /home/jenter/package/work/install/bluesea2/share/bluesea2/params/LDS-E320-S.yaml\n'}
+[11.903223] (bluesea2) StdoutLine: {'line': b'-- Installing: /home/jenter/package/work/install/bluesea2/share/bluesea2/params/LSS-10A-C30E44.yaml\n'}
+[11.903550] (bluesea2) StdoutLine: {'line': b'-- Installing: /home/jenter/package/work/install/bluesea2/share/bluesea2/params/LDS-50C-C30E.yaml\n'}
+[11.903882] (bluesea2) StdoutLine: {'line': b'-- Installing: /home/jenter/package/work/install/bluesea2/share/bluesea2/params/LDS-50C-2.yaml\n'}
+[11.904246] (bluesea2) StdoutLine: {'line': b'-- Installing: /home/jenter/package/work/install/bluesea2/share/bluesea2/params/LDS-E120-R.yaml\n'}
+[11.904561] (bluesea2) StdoutLine: {'line': b'-- Installing: /home/jenter/package/work/install/bluesea2/share/bluesea2/params/LDS-E340-E-R.yaml\n'}
+[11.904908] (bluesea2) StdoutLine: {'line': b'-- Installing: /home/jenter/package/work/install/bluesea2/share/bluesea2/params/LDS-E300-R.yaml\n'}
+[11.905220] (bluesea2) StdoutLine: {'line': b'-- Installing: /home/jenter/package/work/install/bluesea2/share/bluesea2/params/LSS-40D-C30E.yaml\n'}
+[11.905566] (bluesea2) StdoutLine: {'line': b'-- Installing: /home/jenter/package/work/install/bluesea2/share/bluesea2/params/LDS-15D-B25R.yaml\n'}
+[11.905909] (bluesea2) StdoutLine: {'line': b'-- Installing: /home/jenter/package/work/install/bluesea2/share/bluesea2/params/LDS-E400-E.yaml\n'}
+[11.906241] (bluesea2) StdoutLine: {'line': b'-- Installing: /home/jenter/package/work/install/bluesea2/share/bluesea2/params/LDS-E321-S.yaml\n'}
+[11.906540] (bluesea2) StdoutLine: {'line': b'-- Installing: /home/jenter/package/work/install/bluesea2/share/bluesea2/params/LDS-50C-C30E-R.yaml\n'}
+[11.906867] (bluesea2) StdoutLine: {'line': b'-- Installing: /home/jenter/package/work/install/bluesea2/share/bluesea2/params/LDS-50C-3.yaml\n'}
+[11.907191] (bluesea2) StdoutLine: {'line': b'-- Installing: /home/jenter/package/work/install/bluesea2/share/bluesea2/params/LDS-25D-B25R.yaml\n'}
+[11.907505] (bluesea2) StdoutLine: {'line': b'-- Installing: /home/jenter/package/work/install/bluesea2/share/bluesea2/params/dual_lidar.yaml\n'}
+[11.907820] (bluesea2) StdoutLine: {'line': b'-- Installing: /home/jenter/package/work/install/bluesea2/share/bluesea2/params/LDS-E310-E.yaml\n'}
+[11.908120] (bluesea2) StdoutLine: {'line': b'-- Installing: /home/jenter/package/work/install/bluesea2/share/bluesea2/params/LDS-E340-S.yaml\n'}
+[11.908460] (bluesea2) StdoutLine: {'line': b'-- Installing: /home/jenter/package/work/install/bluesea2/share/bluesea2/params/LDS-E200-R.yaml\n'}
+[11.908758] (bluesea2) StdoutLine: {'line': b'-- Installing: /home/jenter/package/work/install/bluesea2/share/bluesea2/params/LDS-E200-A.yaml\n'}
+[11.909057] (bluesea2) StdoutLine: {'line': b'-- Installing: /home/jenter/package/work/install/bluesea2/share/bluesea2/params/LDS-50C-R.yaml\n'}
+[11.909342] (bluesea2) StdoutLine: {'line': b'-- Installing: /home/jenter/package/work/install/bluesea2/share/bluesea2/params/LDS-E200-E.yaml\n'}
+[11.909635] (bluesea2) StdoutLine: {'line': b'-- Installing: /home/jenter/package/work/install/bluesea2/share/bluesea2/params/LDS-50C-E.yaml\n'}
+[11.909921] (bluesea2) StdoutLine: {'line': b'-- Installing: /home/jenter/package/work/install/bluesea2/share/bluesea2/params/VPC.yaml\n'}
+[11.910225] (bluesea2) StdoutLine: {'line': b'-- Installing: /home/jenter/package/work/install/bluesea2/share/bluesea2/params/LDS-E340-E.yaml\n'}
+[11.910501] (bluesea2) StdoutLine: {'line': b'-- Installing: /home/jenter/package/work/install/bluesea2/share/bluesea2/params/LSS-40D-C20E_VPC.yaml\n'}
+[11.910805] (bluesea2) StdoutLine: {'line': b'-- Installing: /home/jenter/package/work/install/bluesea2/share/bluesea2/params/LDS-E330-S-R.yaml\n'}
+[11.911086] (bluesea2) StdoutLine: {'line': b'-- Installing: /home/jenter/package/work/install/bluesea2/share/bluesea2/params/LDS-E100-R.yaml\n'}
+[11.911371] (bluesea2) StdoutLine: {'line': b'-- Installing: /home/jenter/package/work/install/bluesea2/share/bluesea2/params/LSS-40S-B20E44.yaml\n'}
+[11.911687] (bluesea2) StdoutLine: {'line': b'-- Installing: /home/jenter/package/work/install/bluesea2/share/bluesea2/params/LDS-25BDM-2.yaml\n'}
+[11.912001] (bluesea2) StdoutLine: {'line': b'-- Installing: /home/jenter/package/work/install/bluesea2/share/bluesea2/params/LSS-40D-C30E_VPC.yaml\n'}
+[11.912336] (bluesea2) StdoutLine: {'line': b'-- Installing: /home/jenter/package/work/install/bluesea2/share/bluesea2/params/LDS-E330-S.yaml\n'}
+[11.912643] (bluesea2) StdoutLine: {'line': b'-- Installing: /home/jenter/package/work/install/bluesea2/share/bluesea2/params/LSS-40D-C20E.yaml\n'}
+[11.913230] (bluesea2) StdoutLine: {'line': b'-- Installing: /home/jenter/package/work/install/bluesea2/share/ament_index/resource_index/package_run_dependencies/bluesea2\n'}
+[11.913564] (bluesea2) StdoutLine: {'line': b'-- Installing: /home/jenter/package/work/install/bluesea2/share/ament_index/resource_index/parent_prefix_path/bluesea2\n'}
+[11.913872] (bluesea2) StdoutLine: {'line': b'-- Installing: /home/jenter/package/work/install/bluesea2/share/bluesea2/environment/ament_prefix_path.sh\n'}
+[11.914124] (bluesea2) StdoutLine: {'line': b'-- Installing: /home/jenter/package/work/install/bluesea2/share/bluesea2/environment/ament_prefix_path.dsv\n'}
+[11.914353] (bluesea2) StdoutLine: {'line': b'-- Installing: /home/jenter/package/work/install/bluesea2/share/bluesea2/environment/path.sh\n'}
+[11.914578] (bluesea2) StdoutLine: {'line': b'-- Installing: /home/jenter/package/work/install/bluesea2/share/bluesea2/environment/path.dsv\n'}
+[11.914802] (bluesea2) StdoutLine: {'line': b'-- Installing: /home/jenter/package/work/install/bluesea2/share/bluesea2/local_setup.bash\n'}
+[11.915031] (bluesea2) StdoutLine: {'line': b'-- Installing: /home/jenter/package/work/install/bluesea2/share/bluesea2/local_setup.sh\n'}
+[11.915253] (bluesea2) StdoutLine: {'line': b'-- Installing: /home/jenter/package/work/install/bluesea2/share/bluesea2/local_setup.zsh\n'}
+[11.915461] (bluesea2) StdoutLine: {'line': b'-- Installing: /home/jenter/package/work/install/bluesea2/share/bluesea2/local_setup.dsv\n'}
+[11.915665] (bluesea2) StdoutLine: {'line': b'-- Installing: /home/jenter/package/work/install/bluesea2/share/bluesea2/package.dsv\n'}
+[11.915932] (bluesea2) StdoutLine: {'line': b'-- Installing: /home/jenter/package/work/install/bluesea2/share/ament_index/resource_index/packages/bluesea2\n'}
+[11.916199] (bluesea2) StdoutLine: {'line': b'-- Installing: /home/jenter/package/work/install/bluesea2/share/bluesea2/cmake/bluesea2Config.cmake\n'}
+[11.916372] (bluesea2) StdoutLine: {'line': b'-- Installing: /home/jenter/package/work/install/bluesea2/share/bluesea2/cmake/bluesea2Config-version.cmake\n'}
+[11.916551] (bluesea2) StdoutLine: {'line': b'-- Installing: /home/jenter/package/work/install/bluesea2/share/bluesea2/package.xml\n'}
+[11.919078] (bluesea2) CommandEnded: {'returncode': 0}
+[11.942543] (bluesea2) JobEnded: {'identifier': 'bluesea2', 'rc': 0}
+[11.943449] (-) EventReactorShutdown: {}

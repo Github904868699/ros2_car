@@ -1,0 +1,211 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+-- Found visualization_msgs: 4.9.0 (/opt/ros/humble/share/visualization_msgs/cmake)
+-- Found std_srvs: 4.9.0 (/opt/ros/humble/share/std_srvs/cmake)
+-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/jenter/package/work/src/bluesea-ros2/include>
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/jenter/package/work/build/bluesea2
+[ 40%] [32mBuilding CXX object CMakeFiles/bluesea_node.dir/src/uart_reader.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/bluesea_node.dir/src/parser.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/bluesea_node_client.dir/src/bluesea_client.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/bluesea_node.dir/src/bluesea_node.cpp.o[0m
+[01m[K/home/jenter/package/work/src/bluesea-ros2/src/uart_reader.cpp:[m[K In function ‘[01m[Kbool uart_talk(int, int, const char*, int, const char*, int, char*, int, int)[m[K’:
+[01m[K/home/jenter/package/work/src/bluesea-ros2/src/uart_reader.cpp:38:36:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kunsigned int[m[K’ and ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+   38 |         for (unsigned int i = 0; [01;35m[Ki < CacheLength - nhdr - nfetch[m[K; i++)
+      |                                  [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jenter/package/work/src/bluesea-ros2/src/parser.cpp:[m[K In function ‘[01m[Kint autoGetFirstAngle(RawData, bool, std::vector<RawData>&, std::string&)[m[K’:
+[01m[K/home/jenter/package/work/src/bluesea-ros2/src/parser.cpp:1385:92:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kresult[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+ 1385 | int autoGetFirstAngle(RawData raw, bool from_zero, std::vector<RawData> &raws,[01;35m[Kstd::string &result[m[K)
+      |                                                                               [01;35m[K~~~~~~~~~~~~~^~~~~~[m[K
+[01m[K/home/jenter/package/work/src/bluesea-ros2/src/uart_reader.cpp:37:14:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kres[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   37 |         bool [01;35m[Kres[m[K=false;
+      |              [01;35m[K^~~[m[K
+[01m[K/home/jenter/package/work/src/bluesea-ros2/src/uart_reader.cpp:[m[K In function ‘[01m[Kbool vpc_talk(int, int, short int, int, const char*, int, void*)[m[K’:
+[01m[K/home/jenter/package/work/src/bluesea-ros2/src/uart_reader.cpp:154:93:[m[K [01;35m[Kwarning: [m[Kcomparison is always true due to limited range of data type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wtype-limits-Wtype-limits]8;;[m[K]
+  154 |                                                 if ((buf[i + j + 8] >= 33 && [01;35m[Kbuf[i + j + 8] <= 127[m[K))
+      |                                                                              [01;35m[K~~~~~~~~~~~~~~~^~~~~~[m[K
+[01m[K/home/jenter/package/work/src/bluesea-ros2/src/uart_reader.cpp:[m[K In function ‘[01m[Kbool setup_lidar_uart(HParser, int)[m[K’:
+[01m[K/home/jenter/package/work/src/bluesea-ros2/src/uart_reader.cpp:285:14:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kresult[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+  285 |         char [01;35m[Kresult[m[K[3] = {0};
+      |              [01;35m[K^~~~~~[m[K
+[01m[K/home/jenter/package/work/src/bluesea-ros2/src/uart_reader.cpp:[m[K In function ‘[01m[Kbool uart_talk(int, int, const char*, int, const char*, int, char*, int, int)[m[K’:
+[01m[K/home/jenter/package/work/src/bluesea-ros2/src/uart_reader.cpp:57:56:[m[K [01;35m[Kwarning: [m[K‘[01m[Kchar* strncpy(char*, const char*, size_t)[m[K’ output truncated before terminating nul copying 2 bytes from a string of the same length [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wstringop-truncation-Wstringop-truncation]8;;[m[K]
+   57 |                                                 [01;35m[Kstrncpy(fetch, "OK", 2)[m[K;
+      |                                                 [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jenter/package/work/src/bluesea-ros2/src/uart_reader.cpp:62:56:[m[K [01;35m[Kwarning: [m[K‘[01m[Kchar* strncpy(char*, const char*, size_t)[m[K’ output truncated before terminating nul copying 2 bytes from a string of the same length [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wstringop-truncation-Wstringop-truncation]8;;[m[K]
+   62 |                                                 [01;35m[Kstrncpy(fetch, "NG", 2)[m[K;
+      |                                                 [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jenter/package/work/src/bluesea-ros2/src/uart_reader.cpp:68:48:[m[K [01;35m[Kwarning: [m[K‘[01m[Kchar* strncpy(char*, const char*, size_t)[m[K’ output truncated before terminating nul copying 2 bytes from a string of the same length [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wstringop-truncation-Wstringop-truncation]8;;[m[K]
+   68 |                                         [01;35m[Kstrncpy(fetch, "OK", 2)[m[K;
+      |                                         [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~[m[K
+[ 50%] [32mBuilding CXX object CMakeFiles/bluesea_node.dir/src/udp_reader.cpp.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/bluesea_node.dir/src/tcp_reader.cpp.o[0m
+[01m[K/home/jenter/package/work/src/bluesea-ros2/src/udp_reader.cpp:[m[K In function ‘[01m[Kvoid* UdpThreadProc(void*)[m[K’:
+[01m[K/home/jenter/package/work/src/bluesea-ros2/src/udp_reader.cpp:148:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kerror_num[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  148 |         int [01;35m[Kerror_num[m[K = 0;
+      |             [01;35m[K^~~~~~~~~[m[K
+[ 70%] [32mBuilding CXX object CMakeFiles/bluesea_node.dir/src/algorithmAPI.cpp.o[0m
+[ 80%] [32mBuilding C object CMakeFiles/bluesea_node.dir/src/uart.c.o[0m
+[01m[K/home/jenter/package/work/src/bluesea-ros2/src/uart.c:[m[K In function ‘[01m[Kchange_baud[m[K’:
+[01m[K/home/jenter/package/work/src/bluesea-ros2/src/uart.c:31:21:[m[K [01;35m[Kwarning: [m[Ktaking the absolute value of unsigned type ‘[01m[Kspeed_t[m[K’ {aka ‘[01m[Kunsigned int[m[K’} has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wabsolute-value-Wabsolute-value]8;;[m[K]
+   31 |                 if ([01;35m[Kabs[m[K(t.c_ospeed - baud) <= 20000)
+      |                     [01;35m[K^~~[m[K
+[01m[K/home/jenter/package/work/src/bluesea-ros2/src/algorithmAPI.cpp:[m[K In function ‘[01m[Kbool checkWindowValid2(std::vector<DataPoint>, size_t, size_t, double, double)[m[K’:
+[01m[K/home/jenter/package/work/src/bluesea-ros2/src/algorithmAPI.cpp:16:58:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+   16 |     if (j < 0 || j >= static_cast<int>(scan.size())||[01;35m[Kidx == j[m[K)
+      |                                                      [01;35m[K~~~~^~~~[m[K
+[01m[K/home/jenter/package/work/src/bluesea-ros2/src/algorithmAPI.cpp:32:21:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+   32 |   if ([01;35m[Knum_neighbors < window[m[K)
+      |       [01;35m[K~~~~~~~~~~~~~~^~~~~~~~[m[K
+[01m[K/home/jenter/package/work/src/bluesea-ros2/src/algorithmAPI.cpp:[m[K In function ‘[01m[Kbool filter(std::vector<DataPoint>&, int, double, double, double, int, double)[m[K’:
+[01m[K/home/jenter/package/work/src/bluesea-ros2/src/algorithmAPI.cpp:47:26:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kstd::vector<DataPoint>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+   47 |   if ([01;35m[Koutput_scan.size() <= filter_window + 1[m[K)
+      |       [01;35m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jenter/package/work/src/bluesea-ros2/src/algorithmAPI.cpp:43:55:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kfilter_type[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   43 | bool filter(std::vector<DataPoint>  &output_scan, [01;35m[Kint filter_type[m[K, double max_range, double min_range, double max_range_difference, int filter_window,double angle_increment)
+      |                                                   [01;35m[K~~~~^~~~~~~~~~~[m[K
+[01m[K/home/jenter/package/work/src/bluesea-ros2/src/algorithmAPI.cpp:[m[K In function ‘[01m[Kbool checkZeroDistance(std::vector<DataPoint>, float)[m[K’:
+[01m[K/home/jenter/package/work/src/bluesea-ros2/src/algorithmAPI.cpp:97:16:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<DataPoint>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+   97 |   for(int i=0;[01;35m[Ki<data.size()[m[K;i++)
+      |               [01;35m[K~^~~~~~~~~~~~[m[K
+[01m[K/home/jenter/package/work/src/bluesea-ros2/src/algorithmAPI.cpp:95:8:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kresult[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   95 |   bool [01;35m[Kresult[m[K=true;
+      |        [01;35m[K^~~~~~[m[K
+[ 90%] [32m[1mLinking CXX executable bluesea_node_client[0m
+[ 90%] Built target bluesea_node_client
+[100%] [32m[1mLinking CXX executable bluesea_node[0m
+[100%] Built target bluesea_node
+-- Install configuration: ""
+-- Installing: /home/jenter/package/work/install/bluesea2/lib/bluesea2/bluesea_node
+-- Set runtime path of "/home/jenter/package/work/install/bluesea2/lib/bluesea2/bluesea_node" to ""
+-- Installing: /home/jenter/package/work/install/bluesea2/lib/bluesea2/bluesea_node_client
+-- Set runtime path of "/home/jenter/package/work/install/bluesea2/lib/bluesea2/bluesea_node_client" to ""
+-- Installing: /home/jenter/package/work/install/bluesea2/share/bluesea2/launch
+-- Installing: /home/jenter/package/work/install/bluesea2/share/bluesea2/launch/LSS-40D-C20E.launch
+-- Installing: /home/jenter/package/work/install/bluesea2/share/bluesea2/launch/LDS-E310-R.launch
+-- Installing: /home/jenter/package/work/install/bluesea2/share/bluesea2/launch/LDS-E200-A.launch
+-- Installing: /home/jenter/package/work/install/bluesea2/share/bluesea2/launch/LDS-E330-S.launch
+-- Installing: /home/jenter/package/work/install/bluesea2/share/bluesea2/launch/LDS-50C-R.launch
+-- Installing: /home/jenter/package/work/install/bluesea2/share/bluesea2/launch/LDS-E120-R.launch
+-- Installing: /home/jenter/package/work/install/bluesea2/share/bluesea2/launch/LDS-15BDM.launch
+-- Installing: /home/jenter/package/work/install/bluesea2/share/bluesea2/launch/VPC.launch
+-- Installing: /home/jenter/package/work/install/bluesea2/share/bluesea2/launch/LDS-50C-C30E.launch
+-- Installing: /home/jenter/package/work/install/bluesea2/share/bluesea2/launch/LDS-15D-B25R.launch
+-- Installing: /home/jenter/package/work/install/bluesea2/share/bluesea2/launch/dual_lidar.launch
+-- Installing: /home/jenter/package/work/install/bluesea2/share/bluesea2/launch/LDS-E310-E.launch
+-- Installing: /home/jenter/package/work/install/bluesea2/share/bluesea2/launch/LDS-E200-R.launch
+-- Installing: /home/jenter/package/work/install/bluesea2/share/bluesea2/launch/LDS-E330-S-R.launch
+-- Installing: /home/jenter/package/work/install/bluesea2/share/bluesea2/launch/LDS-E200-E.launch
+-- Installing: /home/jenter/package/work/install/bluesea2/share/bluesea2/launch/LDS-E320-S.launch
+-- Installing: /home/jenter/package/work/install/bluesea2/share/bluesea2/launch/LDS-E300-E.launch
+-- Installing: /home/jenter/package/work/install/bluesea2/share/bluesea2/launch/LSS-40D-C30E_VPC.launch
+-- Installing: /home/jenter/package/work/install/bluesea2/share/bluesea2/launch/LDS-50C-C20E.launch
+-- Installing: /home/jenter/package/work/install/bluesea2/share/bluesea2/launch/LDS-50C-2.launch
+-- Installing: /home/jenter/package/work/install/bluesea2/share/bluesea2/launch/LDS-E300-R.launch
+-- Installing: /home/jenter/package/work/install/bluesea2/share/bluesea2/launch/LDS-E340-S.launch
+-- Installing: /home/jenter/package/work/install/bluesea2/share/bluesea2/launch/LDS-25D-B25R.launch
+-- Installing: /home/jenter/package/work/install/bluesea2/share/bluesea2/launch/LSS-40S-B20E44.launch
+-- Installing: /home/jenter/package/work/install/bluesea2/share/bluesea2/launch/LDS-E100-R.launch
+-- Installing: /home/jenter/package/work/install/bluesea2/share/bluesea2/launch/LDS-25BDM.launch
+-- Installing: /home/jenter/package/work/install/bluesea2/share/bluesea2/launch/LDS-50C-3.launch
+-- Installing: /home/jenter/package/work/install/bluesea2/share/bluesea2/launch/bluesea.py
+-- Installing: /home/jenter/package/work/install/bluesea2/share/bluesea2/launch/LES-10A-D40U44.launch
+-- Installing: /home/jenter/package/work/install/bluesea2/share/bluesea2/launch/LSS-40D-C30E.launch
+-- Installing: /home/jenter/package/work/install/bluesea2/share/bluesea2/launch/LDS-E340-E.launch
+-- Installing: /home/jenter/package/work/install/bluesea2/share/bluesea2/launch/LDS-50C-E.launch
+-- Installing: /home/jenter/package/work/install/bluesea2/share/bluesea2/launch/LDS-E400-E.launch
+-- Installing: /home/jenter/package/work/install/bluesea2/share/bluesea2/launch/test.launch
+-- Installing: /home/jenter/package/work/install/bluesea2/share/bluesea2/params
+-- Installing: /home/jenter/package/work/install/bluesea2/share/bluesea2/params/LDS-50C-C20E.yaml
+-- Installing: /home/jenter/package/work/install/bluesea2/share/bluesea2/params/LDS-15BDM-2.yaml
+-- Installing: /home/jenter/package/work/install/bluesea2/share/bluesea2/params/LDS-E310-R.yaml
+-- Installing: /home/jenter/package/work/install/bluesea2/share/bluesea2/params/LDS-E300-E.yaml
+-- Installing: /home/jenter/package/work/install/bluesea2/share/bluesea2/params/LDS-E320-S.yaml
+-- Installing: /home/jenter/package/work/install/bluesea2/share/bluesea2/params/LSS-10A-C30E44.yaml
+-- Installing: /home/jenter/package/work/install/bluesea2/share/bluesea2/params/LDS-50C-C30E.yaml
+-- Installing: /home/jenter/package/work/install/bluesea2/share/bluesea2/params/LDS-50C-2.yaml
+-- Installing: /home/jenter/package/work/install/bluesea2/share/bluesea2/params/LDS-E120-R.yaml
+-- Installing: /home/jenter/package/work/install/bluesea2/share/bluesea2/params/LDS-E340-E-R.yaml
+-- Installing: /home/jenter/package/work/install/bluesea2/share/bluesea2/params/LDS-E300-R.yaml
+-- Installing: /home/jenter/package/work/install/bluesea2/share/bluesea2/params/LSS-40D-C30E.yaml
+-- Installing: /home/jenter/package/work/install/bluesea2/share/bluesea2/params/LDS-15D-B25R.yaml
+-- Installing: /home/jenter/package/work/install/bluesea2/share/bluesea2/params/LDS-E400-E.yaml
+-- Installing: /home/jenter/package/work/install/bluesea2/share/bluesea2/params/LDS-E321-S.yaml
+-- Installing: /home/jenter/package/work/install/bluesea2/share/bluesea2/params/LDS-50C-C30E-R.yaml
+-- Installing: /home/jenter/package/work/install/bluesea2/share/bluesea2/params/LDS-50C-3.yaml
+-- Installing: /home/jenter/package/work/install/bluesea2/share/bluesea2/params/LDS-25D-B25R.yaml
+-- Installing: /home/jenter/package/work/install/bluesea2/share/bluesea2/params/dual_lidar.yaml
+-- Installing: /home/jenter/package/work/install/bluesea2/share/bluesea2/params/LDS-E310-E.yaml
+-- Installing: /home/jenter/package/work/install/bluesea2/share/bluesea2/params/LDS-E340-S.yaml
+-- Installing: /home/jenter/package/work/install/bluesea2/share/bluesea2/params/LDS-E200-R.yaml
+-- Installing: /home/jenter/package/work/install/bluesea2/share/bluesea2/params/LDS-E200-A.yaml
+-- Installing: /home/jenter/package/work/install/bluesea2/share/bluesea2/params/LDS-50C-R.yaml
+-- Installing: /home/jenter/package/work/install/bluesea2/share/bluesea2/params/LDS-E200-E.yaml
+-- Installing: /home/jenter/package/work/install/bluesea2/share/bluesea2/params/LDS-50C-E.yaml
+-- Installing: /home/jenter/package/work/install/bluesea2/share/bluesea2/params/VPC.yaml
+-- Installing: /home/jenter/package/work/install/bluesea2/share/bluesea2/params/LDS-E340-E.yaml
+-- Installing: /home/jenter/package/work/install/bluesea2/share/bluesea2/params/LSS-40D-C20E_VPC.yaml
+-- Installing: /home/jenter/package/work/install/bluesea2/share/bluesea2/params/LDS-E330-S-R.yaml
+-- Installing: /home/jenter/package/work/install/bluesea2/share/bluesea2/params/LDS-E100-R.yaml
+-- Installing: /home/jenter/package/work/install/bluesea2/share/bluesea2/params/LSS-40S-B20E44.yaml
+-- Installing: /home/jenter/package/work/install/bluesea2/share/bluesea2/params/LDS-25BDM-2.yaml
+-- Installing: /home/jenter/package/work/install/bluesea2/share/bluesea2/params/LSS-40D-C30E_VPC.yaml
+-- Installing: /home/jenter/package/work/install/bluesea2/share/bluesea2/params/LDS-E330-S.yaml
+-- Installing: /home/jenter/package/work/install/bluesea2/share/bluesea2/params/LSS-40D-C20E.yaml
+-- Installing: /home/jenter/package/work/install/bluesea2/share/ament_index/resource_index/package_run_dependencies/bluesea2
+-- Installing: /home/jenter/package/work/install/bluesea2/share/ament_index/resource_index/parent_prefix_path/bluesea2
+-- Installing: /home/jenter/package/work/install/bluesea2/share/bluesea2/environment/ament_prefix_path.sh
+-- Installing: /home/jenter/package/work/install/bluesea2/share/bluesea2/environment/ament_prefix_path.dsv
+-- Installing: /home/jenter/package/work/install/bluesea2/share/bluesea2/environment/path.sh
+-- Installing: /home/jenter/package/work/install/bluesea2/share/bluesea2/environment/path.dsv
+-- Installing: /home/jenter/package/work/install/bluesea2/share/bluesea2/local_setup.bash
+-- Installing: /home/jenter/package/work/install/bluesea2/share/bluesea2/local_setup.sh
+-- Installing: /home/jenter/package/work/install/bluesea2/share/bluesea2/local_setup.zsh
+-- Installing: /home/jenter/package/work/install/bluesea2/share/bluesea2/local_setup.dsv
+-- Installing: /home/jenter/package/work/install/bluesea2/share/bluesea2/package.dsv
+-- Installing: /home/jenter/package/work/install/bluesea2/share/ament_index/resource_index/packages/bluesea2
+-- Installing: /home/jenter/package/work/install/bluesea2/share/bluesea2/cmake/bluesea2Config.cmake
+-- Installing: /home/jenter/package/work/install/bluesea2/share/bluesea2/cmake/bluesea2Config-version.cmake
+-- Installing: /home/jenter/package/work/install/bluesea2/share/bluesea2/package.xml

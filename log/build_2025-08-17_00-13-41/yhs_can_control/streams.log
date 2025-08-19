@@ -1,0 +1,36 @@
+[0.016s] Invoking command in '/home/jenter/package/work/build/yhs_can_control': AMENT_PREFIX_PATH=/home/jenter/package/work/install/yhs_can_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jenter/package/work/install/yhs_can_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/jenter/package/work/install/yhs_can_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jenter/package/work/install/yhs_can_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jenter/package/work/build/yhs_can_control -- -j4 -l4
+[0.066s] [35m[1mConsolidate compiler generated dependencies of target yhs_can_control_node[0m
+[0.090s] [ 50%] [32mBuilding CXX object CMakeFiles/yhs_can_control_node.dir/src/yhs_can_control_node.cpp.o[0m
+[3.827s] [01m[K/home/jenter/package/work/src/yhs_can_control/src/yhs_can_control_node.cpp:[m[K In member function ‘[01m[Kvoid yhs::CanControl::steering_ctrl_cmd_callback(yhs_can_interfaces::msg::SteeringCtrlCmd_<std::allocator<void> >::SharedPtr)[m[K’:
+[3.827s] [01m[K/home/jenter/package/work/src/yhs_can_control/src/yhs_can_control_node.cpp:138:25:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kgear[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[3.827s]   138 |     const unsigned char [01;35m[Kgear[m[K = msg.ctrl_cmd_gear;
+[3.828s]       |                         [01;35m[K^~~~[m[K
+[3.847s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[3.847s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[3.847s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[3.847s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[3.847s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[3.848s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[3.848s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[3.848s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.848s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.848s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.848s]                  from [01m[K/home/jenter/package/work/src/yhs_can_control/include/yhs_can_control/yhs_can_control_node.hpp:16[m[K,
+[3.848s]                  from [01m[K/home/jenter/package/work/src/yhs_can_control/src/yhs_can_control_node.cpp:1[m[K:
+[3.848s] [01m[K/home/jenter/package/work/src/yhs_can_control/src/yhs_can_control_node.cpp:[m[K In member function ‘[01m[Kvoid yhs::CanControl::can_data_recv_callback()[m[K’:
+[3.849s] [01m[K/home/jenter/package/work/src/yhs_can_control/src/yhs_can_control_node.cpp:243:21:[m[K [01;31m[Kerror: [m[K‘[01m[Knode[m[K’ was not declared in this scope; did you mean ‘[01m[Knode_[m[K’?
+[3.849s]   243 |         RCLCPP_INFO([01;31m[Knode[m[K->get_logger(), data_str);
+[3.849s]       |                     [01;31m[K^~~~[m[K
+[3.849s] [01m[K/home/jenter/package/work/src/yhs_can_control/src/yhs_can_control_node.cpp:243:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.849s]   243 |         [01;31m[KRCLCPP_INFO[m[K(node->get_logger(), data_str);
+[3.849s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[3.849s] [01m[K/home/jenter/package/work/src/yhs_can_control/src/yhs_can_control_node.cpp:243:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.849s]   243 |         [01;31m[KRCLCPP_INFO[m[K(node->get_logger(), data_str);
+[3.850s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[3.850s] [01m[K/home/jenter/package/work/src/yhs_can_control/src/yhs_can_control_node.cpp:243:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.850s]   243 |         [01;31m[KRCLCPP_INFO[m[K(node->get_logger(), data_str);
+[3.850s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[8.839s] gmake[2]: *** [CMakeFiles/yhs_can_control_node.dir/build.make:76: CMakeFiles/yhs_can_control_node.dir/src/yhs_can_control_node.cpp.o] Error 1
+[8.840s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/yhs_can_control_node.dir/all] Error 2
+[8.840s] gmake: *** [Makefile:146: all] Error 2
+[8.843s] Invoked command in '/home/jenter/package/work/build/yhs_can_control' returned '2': AMENT_PREFIX_PATH=/home/jenter/package/work/install/yhs_can_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jenter/package/work/install/yhs_can_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/jenter/package/work/install/yhs_can_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jenter/package/work/install/yhs_can_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jenter/package/work/build/yhs_can_control -- -j4 -l4

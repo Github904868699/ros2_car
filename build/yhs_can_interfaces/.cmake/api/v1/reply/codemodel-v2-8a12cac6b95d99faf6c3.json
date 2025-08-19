@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-9b7ae1006fa01a82e476.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "yhs_can_interfaces__py",
+					"jsonFile" : "directory-yhs_can_interfaces__py-7428c92bf948773290ad.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/jenter/package/work/build/yhs_can_interfaces/yhs_can_interfaces__py",
+					"targetIndexes" : 
+					[
+						5
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "yhs_can_interfaces",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_yhs_can_interfaces_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_yhs_can_interfaces_egg-28bb83aee7ebe71b706d.json",
+					"name" : "ament_cmake_python_build_yhs_can_interfaces_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_yhs_can_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_yhs_can_interfaces-b01fde5e5ac5b0907845.json",
+					"name" : "ament_cmake_python_copy_yhs_can_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-96cacd59be54bcb5661c.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "yhs_can_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-yhs_can_interfaces-4be41a9c754d2e18f6bb.json",
+					"name" : "yhs_can_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "yhs_can_interfaces__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-yhs_can_interfaces__cpp-72589b28c26bbed0f692.json",
+					"name" : "yhs_can_interfaces__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "yhs_can_interfaces__py::@ce559ea06ebe67b57582",
+					"jsonFile" : "target-yhs_can_interfaces__py-4fae6b4da37efd71ff22.json",
+					"name" : "yhs_can_interfaces__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "yhs_can_interfaces__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-yhs_can_interfaces__rosidl_generator_c-6bf73022016aa93e49dc.json",
+					"name" : "yhs_can_interfaces__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "yhs_can_interfaces__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-yhs_can_interfaces__rosidl_generator_py-2f290d0edd640d46a10b.json",
+					"name" : "yhs_can_interfaces__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "yhs_can_interfaces__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-yhs_can_interfaces__rosidl_typesupport_c-78c266ae89e0c3b4c2ab.json",
+					"name" : "yhs_can_interfaces__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "yhs_can_interfaces__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-yhs_can_interfaces__rosidl_typesupport_c__pyext-c6944df5b510d16e906f.json",
+					"name" : "yhs_can_interfaces__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "yhs_can_interfaces__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-yhs_can_interfaces__rosidl_typesupport_cpp-e2c3e081f4cf93f6d102.json",
+					"name" : "yhs_can_interfaces__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "yhs_can_interfaces__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-yhs_can_interfaces__rosidl_typesupport_fastrtps_c-71cd2d36266ea814d84f.json",
+					"name" : "yhs_can_interfaces__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "yhs_can_interfaces__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-yhs_can_interfaces__rosidl_typesupport_fastrtps_c__pyext-1db1e275cb81beecb50d.json",
+					"name" : "yhs_can_interfaces__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "yhs_can_interfaces__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-yhs_can_interfaces__rosidl_typesupport_fastrtps_cpp-5b64f41811a6453b0d5c.json",
+					"name" : "yhs_can_interfaces__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "yhs_can_interfaces__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-yhs_can_interfaces__rosidl_typesupport_introspection_c-eeaec8c35a3e94f56db0.json",
+					"name" : "yhs_can_interfaces__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "yhs_can_interfaces__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-yhs_can_interfaces__rosidl_typesupport_introspection_c__pyext-c86335019d400d054673.json",
+					"name" : "yhs_can_interfaces__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "yhs_can_interfaces__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-yhs_can_interfaces__rosidl_typesupport_introspection_cpp-141b306e22bcadda234c.json",
+					"name" : "yhs_can_interfaces__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "yhs_can_interfaces_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-yhs_can_interfaces_uninstall-08023115df116bd8405f.json",
+					"name" : "yhs_can_interfaces_uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/jenter/package/work/build/yhs_can_interfaces",
+		"source" : "/home/jenter/package/work/src/yhs_can_interfaces"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

@@ -1,0 +1,94 @@
+[0.016s] Invoking command in '/home/jenter/package/work/build/yesense_std_ros2': AMENT_PREFIX_PATH=/home/jenter/package/work/install/yesense_interface:/home/jenter/package/work/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jenter/package/work/install/yesense_interface:/home/jenter/package/work/install/serial:/home/jenter/package/work/install/bluesea2:/opt/ros/humble LD_LIBRARY_PATH=/home/jenter/package/work/install/yesense_interface/lib:/home/jenter/package/work/install/serial/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jenter/package/work/install/yesense_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/jenter/package/work/src/yesense_ros2/yesense_std_ros2 -DCMAKE_INSTALL_PREFIX=/home/jenter/package/work/install/yesense_std_ros2
+[0.083s] -- The C compiler identification is GNU 11.4.0
+[0.152s] -- The CXX compiler identification is GNU 11.4.0
+[0.161s] -- Detecting C compiler ABI info
+[0.243s] -- Detecting C compiler ABI info - done
+[0.255s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.255s] -- Detecting C compile features
+[0.256s] -- Detecting C compile features - done
+[0.260s] -- Detecting CXX compiler ABI info
+[0.357s] -- Detecting CXX compiler ABI info - done
+[0.368s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.369s] -- Detecting CXX compile features
+[0.369s] -- Detecting CXX compile features - done
+[0.372s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.573s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.689s] -- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+[0.742s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.749s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.759s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.776s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.798s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.857s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.860s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.956s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.990s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.040s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.051s] -- Looking for pthread.h
+[1.138s] -- Looking for pthread.h - found
+[1.138s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.228s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.229s] -- Found Threads: TRUE  
+[1.301s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.344s] -- Found serial: 1.2.1 (/home/jenter/package/work/install/serial/share/serial/cmake)
+[1.348s] -- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[1.373s] -- Found visualization_msgs: 4.9.0 (/opt/ros/humble/share/visualization_msgs/cmake)
+[1.402s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.413s] -- Found yesense_interface: 1.0.0 (/home/jenter/package/work/install/yesense_interface/share/yesense_interface/cmake)
+[1.439s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.545s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.547s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.547s] -- Configured cppcheck include dirs: /home/jenter/package/work/src/yesense_ros2/yesense_std_ros2/include;/home/jenter/package/work/src/yesense_ros2/yesense_std_ros2/src
+[1.548s] -- Configured cppcheck exclude dirs and/or files: 
+[1.549s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.549s] -- Configured cpplint exclude dirs and/or files: 
+[1.550s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.551s] -- Added test 'lint_cmake' to check CMake code style
+[1.551s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.553s] -- Added test 'uncrustify' to check C / C++ code style
+[1.553s] -- Configured uncrustify additional arguments: 
+[1.554s] -- Added test 'xmllint' to check XML markup files
+[1.555s] -- Configuring done
+[1.578s] -- Generating done
+[1.587s] -- Build files have been written to: /home/jenter/package/work/build/yesense_std_ros2
+[1.601s] Invoked command in '/home/jenter/package/work/build/yesense_std_ros2' returned '0': AMENT_PREFIX_PATH=/home/jenter/package/work/install/yesense_interface:/home/jenter/package/work/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jenter/package/work/install/yesense_interface:/home/jenter/package/work/install/serial:/home/jenter/package/work/install/bluesea2:/opt/ros/humble LD_LIBRARY_PATH=/home/jenter/package/work/install/yesense_interface/lib:/home/jenter/package/work/install/serial/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jenter/package/work/install/yesense_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/jenter/package/work/src/yesense_ros2/yesense_std_ros2 -DCMAKE_INSTALL_PREFIX=/home/jenter/package/work/install/yesense_std_ros2
+[1.604s] Invoking command in '/home/jenter/package/work/build/yesense_std_ros2': AMENT_PREFIX_PATH=/home/jenter/package/work/install/yesense_interface:/home/jenter/package/work/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jenter/package/work/install/yesense_interface:/home/jenter/package/work/install/serial:/home/jenter/package/work/install/bluesea2:/opt/ros/humble LD_LIBRARY_PATH=/home/jenter/package/work/install/yesense_interface/lib:/home/jenter/package/work/install/serial/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jenter/package/work/install/yesense_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jenter/package/work/build/yesense_std_ros2 -- -j4 -l4
+[1.670s] [ 66%] [32mBuilding CXX object CMakeFiles/yesense_node_subscriber.dir/src/yesense_node_subscriber_example.cpp.o[0m
+[1.670s] [ 66%] [32mBuilding CXX object CMakeFiles/yesense_node_publisher.dir/src/yesense_decoder.cpp.o[0m
+[1.670s] [ 66%] [32mBuilding CXX object CMakeFiles/yesense_node_publisher.dir/src/yesense_std_out_decoder.cpp.o[0m
+[1.671s] [ 66%] [32mBuilding CXX object CMakeFiles/yesense_node_publisher.dir/src/yesense_node.cpp.o[0m
+[6.742s] [01m[K/home/jenter/package/work/src/yesense_ros2/yesense_std_ros2/src/yesense_node.cpp:[m[K In member function ‘[01m[Kvoid YESENSE_Publisher::timer_callback()[m[K’:
+[6.742s] [01m[K/home/jenter/package/work/src/yesense_ros2/yesense_std_ros2/src/yesense_node.cpp:248:32:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kavailable_bytes[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[6.742s]   248 |                         size_t [01;35m[Kavailable_bytes[m[K = ser.available();
+[6.742s]       |                                [01;35m[K^~~~~~~~~~~~~~~[m[K
+[20.591s] [ 83%] [32m[1mLinking CXX executable yesense_node_publisher[0m
+[21.530s] [ 83%] Built target yesense_node_publisher
+[29.730s] [100%] [32m[1mLinking CXX executable yesense_node_subscriber[0m
+[31.210s] [100%] Built target yesense_node_subscriber
+[31.224s] Invoked command in '/home/jenter/package/work/build/yesense_std_ros2' returned '0': AMENT_PREFIX_PATH=/home/jenter/package/work/install/yesense_interface:/home/jenter/package/work/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jenter/package/work/install/yesense_interface:/home/jenter/package/work/install/serial:/home/jenter/package/work/install/bluesea2:/opt/ros/humble LD_LIBRARY_PATH=/home/jenter/package/work/install/yesense_interface/lib:/home/jenter/package/work/install/serial/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jenter/package/work/install/yesense_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jenter/package/work/build/yesense_std_ros2 -- -j4 -l4
+[31.236s] Invoking command in '/home/jenter/package/work/build/yesense_std_ros2': AMENT_PREFIX_PATH=/home/jenter/package/work/install/yesense_interface:/home/jenter/package/work/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jenter/package/work/install/yesense_interface:/home/jenter/package/work/install/serial:/home/jenter/package/work/install/bluesea2:/opt/ros/humble LD_LIBRARY_PATH=/home/jenter/package/work/install/yesense_interface/lib:/home/jenter/package/work/install/serial/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jenter/package/work/install/yesense_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jenter/package/work/build/yesense_std_ros2
+[31.245s] -- Install configuration: ""
+[31.245s] -- Installing: /home/jenter/package/work/install/yesense_std_ros2/share/yesense_std_ros2/launch
+[31.245s] -- Installing: /home/jenter/package/work/install/yesense_std_ros2/share/yesense_std_ros2/launch/yesense_node.launch.py
+[31.246s] -- Installing: /home/jenter/package/work/install/yesense_std_ros2/share/yesense_std_ros2/config
+[31.246s] -- Installing: /home/jenter/package/work/install/yesense_std_ros2/share/yesense_std_ros2/config/yesense_config.yaml
+[31.246s] -- Installing: /home/jenter/package/work/install/yesense_std_ros2/lib/yesense_std_ros2/yesense_node_publisher
+[31.252s] -- Set runtime path of "/home/jenter/package/work/install/yesense_std_ros2/lib/yesense_std_ros2/yesense_node_publisher" to ""
+[31.252s] -- Installing: /home/jenter/package/work/install/yesense_std_ros2/lib/yesense_std_ros2/yesense_node_subscriber
+[31.264s] -- Set runtime path of "/home/jenter/package/work/install/yesense_std_ros2/lib/yesense_std_ros2/yesense_node_subscriber" to ""
+[31.264s] -- Installing: /home/jenter/package/work/install/yesense_std_ros2/share/ament_index/resource_index/package_run_dependencies/yesense_std_ros2
+[31.265s] -- Installing: /home/jenter/package/work/install/yesense_std_ros2/share/ament_index/resource_index/parent_prefix_path/yesense_std_ros2
+[31.265s] -- Installing: /home/jenter/package/work/install/yesense_std_ros2/share/yesense_std_ros2/environment/ament_prefix_path.sh
+[31.265s] -- Installing: /home/jenter/package/work/install/yesense_std_ros2/share/yesense_std_ros2/environment/ament_prefix_path.dsv
+[31.265s] -- Installing: /home/jenter/package/work/install/yesense_std_ros2/share/yesense_std_ros2/environment/path.sh
+[31.265s] -- Installing: /home/jenter/package/work/install/yesense_std_ros2/share/yesense_std_ros2/environment/path.dsv
+[31.265s] -- Installing: /home/jenter/package/work/install/yesense_std_ros2/share/yesense_std_ros2/local_setup.bash
+[31.266s] -- Installing: /home/jenter/package/work/install/yesense_std_ros2/share/yesense_std_ros2/local_setup.sh
+[31.266s] -- Installing: /home/jenter/package/work/install/yesense_std_ros2/share/yesense_std_ros2/local_setup.zsh
+[31.266s] -- Installing: /home/jenter/package/work/install/yesense_std_ros2/share/yesense_std_ros2/local_setup.dsv
+[31.266s] -- Installing: /home/jenter/package/work/install/yesense_std_ros2/share/yesense_std_ros2/package.dsv
+[31.266s] -- Installing: /home/jenter/package/work/install/yesense_std_ros2/share/ament_index/resource_index/packages/yesense_std_ros2
+[31.266s] -- Installing: /home/jenter/package/work/install/yesense_std_ros2/share/yesense_std_ros2/cmake/yesense_std_ros2Config.cmake
+[31.266s] -- Installing: /home/jenter/package/work/install/yesense_std_ros2/share/yesense_std_ros2/cmake/yesense_std_ros2Config-version.cmake
+[31.267s] -- Installing: /home/jenter/package/work/install/yesense_std_ros2/share/yesense_std_ros2/package.xml
+[31.269s] Invoked command in '/home/jenter/package/work/build/yesense_std_ros2' returned '0': AMENT_PREFIX_PATH=/home/jenter/package/work/install/yesense_interface:/home/jenter/package/work/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jenter/package/work/install/yesense_interface:/home/jenter/package/work/install/serial:/home/jenter/package/work/install/bluesea2:/opt/ros/humble LD_LIBRARY_PATH=/home/jenter/package/work/install/yesense_interface/lib:/home/jenter/package/work/install/serial/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jenter/package/work/install/yesense_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jenter/package/work/build/yesense_std_ros2

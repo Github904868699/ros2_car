@@ -1,0 +1,27 @@
+[35m[1mConsolidate compiler generated dependencies of target yhs_can_control_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/yhs_can_control_node.dir/src/yhs_can_control_node.cpp.o[0m
+[01m[K/home/jenter/package/work/src/yhs_can_control/src/yhs_can_control_node.cpp:[m[K In member function ‘[01m[Kvoid yhs::CanControl::steering_ctrl_cmd_callback(yhs_can_interfaces::msg::SteeringCtrlCmd_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/jenter/package/work/src/yhs_can_control/src/yhs_can_control_node.cpp:182:13:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kuint8_t crc[m[K’
+  182 |     uint8_t [01;31m[Kcrc[m[K = 0;
+      |             [01;31m[K^~~[m[K
+[01m[K/home/jenter/package/work/src/yhs_can_control/src/yhs_can_control_node.cpp:148:13:[m[K [01;36m[Knote: [m[K‘[01m[Kuint8_t crc[m[K’ previously declared here
+  148 |     uint8_t [01;36m[Kcrc[m[K = 0;
+      |             [01;36m[K^~~[m[K
+[01m[K/home/jenter/package/work/src/yhs_can_control/src/yhs_can_control_node.cpp:189:15:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kcan_frame send_frame[m[K’
+  189 |     can_frame [01;31m[Ksend_frame[m[K;
+      |               [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/jenter/package/work/src/yhs_can_control/src/yhs_can_control_node.cpp:155:15:[m[K [01;36m[Knote: [m[K‘[01m[Kcan_frame send_frame[m[K’ previously declared here
+  155 |     can_frame [01;36m[Ksend_frame[m[K;
+      |               [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/jenter/package/work/src/yhs_can_control/src/yhs_can_control_node.cpp:195:9:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kint ret[m[K’
+  195 |     int [01;31m[Kret[m[K = write(can_socket_, &send_frame, sizeof(send_frame));
+      |         [01;31m[K^~~[m[K
+[01m[K/home/jenter/package/work/src/yhs_can_control/src/yhs_can_control_node.cpp:161:9:[m[K [01;36m[Knote: [m[K‘[01m[Kint ret[m[K’ previously declared here
+  161 |     int [01;36m[Kret[m[K = write(can_socket_, &send_frame, sizeof(send_frame));
+      |         [01;36m[K^~~[m[K
+[01m[K/home/jenter/package/work/src/yhs_can_control/src/yhs_can_control_node.cpp:138:25:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kgear[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  138 |     const unsigned char [01;35m[Kgear[m[K = msg.ctrl_cmd_gear;
+      |                         [01;35m[K^~~~[m[K
+gmake[2]: *** [CMakeFiles/yhs_can_control_node.dir/build.make:76: CMakeFiles/yhs_can_control_node.dir/src/yhs_can_control_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/yhs_can_control_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

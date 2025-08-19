@@ -1,0 +1,229 @@
+[0.000000] (-) TimerEvent: {}
+[0.000421] (-) JobUnselected: {'identifier': 'bluesea2'}
+[0.000474] (-) JobUnselected: {'identifier': 'serial'}
+[0.000509] (-) JobUnselected: {'identifier': 'yesense_interface'}
+[0.000548] (-) JobUnselected: {'identifier': 'yesense_std_ros2'}
+[0.000813] (-) JobUnselected: {'identifier': 'yhs_can_interfaces'}
+[0.000855] (yhs_can_control) JobQueued: {'identifier': 'yhs_can_control', 'dependencies': OrderedDict([('yhs_can_interfaces', '/home/jenter/package/work/install/yhs_can_interfaces')])}
+[0.000899] (yhs_can_control) JobStarted: {'identifier': 'yhs_can_control'}
+[0.013808] (yhs_can_control) JobProgress: {'identifier': 'yhs_can_control', 'progress': 'cmake'}
+[0.014618] (yhs_can_control) JobProgress: {'identifier': 'yhs_can_control', 'progress': 'build'}
+[0.015743] (yhs_can_control) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jenter/package/work/build/yhs_can_control', '--', '-j4', '-l4'], 'cwd': '/home/jenter/package/work/build/yhs_can_control', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jenter'), ('SSH_CLIENT', '192.168.0.4 50852 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jenter/package/work/install/yhs_can_interfaces/lib:/home/jenter/package/work/install/yesense_interface/lib:/home/jenter/package/work/install/serial/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/jenter'), ('OLDPWD', '/home/jenter/package/work/src/yhs_can_control/src'), ('SSH_TTY', '/dev/pts/1'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/jenter/package/work/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jenter'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'vt100'), ('XDG_SESSION_ID', '6'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/jenter/package/work/install/yhs_can_control:/home/jenter/package/work/install/yhs_can_interfaces:/home/jenter/package/work/install/yesense_std_ros2:/home/jenter/package/work/install/yesense_interface:/home/jenter/package/work/install/serial:/home/jenter/package/work/install/bluesea2:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('PWD', '/home/jenter/package/work/build/yhs_can_control'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.0.4 50852 192.168.0.26 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jenter/package/work/install/yhs_can_interfaces/local/lib/python3.10/dist-packages:/home/jenter/package/work/install/yesense_interface/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/jenter/package/work/install/yhs_can_interfaces:/home/jenter/package/work/install/yhs_can_control:/home/jenter/package/work/install/yesense_std_ros2:/home/jenter/package/work/install/yesense_interface:/home/jenter/package/work/install/serial:/home/jenter/package/work/install/bluesea2:/opt/ros/humble')]), 'shell': False}
+[0.069724] (yhs_can_control) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target yhs_can_control_node\x1b[0m\n'}
+[0.094589] (yhs_can_control) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/yhs_can_control_node.dir/src/yhs_can_control_node.cpp.o\x1b[0m\n'}
+[0.098834] (-) TimerEvent: {}
+[0.199191] (-) TimerEvent: {}
+[0.299574] (-) TimerEvent: {}
+[0.399947] (-) TimerEvent: {}
+[0.500338] (-) TimerEvent: {}
+[0.600735] (-) TimerEvent: {}
+[0.701127] (-) TimerEvent: {}
+[0.801519] (-) TimerEvent: {}
+[0.901916] (-) TimerEvent: {}
+[1.002313] (-) TimerEvent: {}
+[1.102720] (-) TimerEvent: {}
+[1.203129] (-) TimerEvent: {}
+[1.303526] (-) TimerEvent: {}
+[1.403963] (-) TimerEvent: {}
+[1.504370] (-) TimerEvent: {}
+[1.604775] (-) TimerEvent: {}
+[1.705178] (-) TimerEvent: {}
+[1.805583] (-) TimerEvent: {}
+[1.905991] (-) TimerEvent: {}
+[2.006414] (-) TimerEvent: {}
+[2.106830] (-) TimerEvent: {}
+[2.207241] (-) TimerEvent: {}
+[2.307643] (-) TimerEvent: {}
+[2.408048] (-) TimerEvent: {}
+[2.508461] (-) TimerEvent: {}
+[2.608823] (-) TimerEvent: {}
+[2.709231] (-) TimerEvent: {}
+[2.809666] (-) TimerEvent: {}
+[2.910106] (-) TimerEvent: {}
+[3.010552] (-) TimerEvent: {}
+[3.111023] (-) TimerEvent: {}
+[3.211441] (-) TimerEvent: {}
+[3.311861] (-) TimerEvent: {}
+[3.412262] (-) TimerEvent: {}
+[3.512626] (-) TimerEvent: {}
+[3.613027] (-) TimerEvent: {}
+[3.713452] (-) TimerEvent: {}
+[3.813847] (-) TimerEvent: {}
+[3.845369] (yhs_can_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jenter/package/work/src/yhs_can_control/src/yhs_can_control_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid yhs::CanControl::steering_ctrl_cmd_callback(yhs_can_interfaces::msg::SteeringCtrlCmd_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.845637] (yhs_can_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jenter/package/work/src/yhs_can_control/src/yhs_can_control_node.cpp:138:25:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kgear\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.845756] (yhs_can_control) StderrLine: {'line': b'  138 |     const unsigned char \x1b[01;35m\x1b[Kgear\x1b[m\x1b[K = msg.ctrl_cmd_gear;\n'}
+[3.845858] (yhs_can_control) StderrLine: {'line': b'      |                         \x1b[01;35m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[3.914016] (-) TimerEvent: {}
+[4.014427] (-) TimerEvent: {}
+[4.114838] (-) TimerEvent: {}
+[4.215250] (-) TimerEvent: {}
+[4.315650] (-) TimerEvent: {}
+[4.416052] (-) TimerEvent: {}
+[4.516458] (-) TimerEvent: {}
+[4.616890] (-) TimerEvent: {}
+[4.717333] (-) TimerEvent: {}
+[4.817759] (-) TimerEvent: {}
+[4.918168] (-) TimerEvent: {}
+[5.018599] (-) TimerEvent: {}
+[5.119035] (-) TimerEvent: {}
+[5.219466] (-) TimerEvent: {}
+[5.319874] (-) TimerEvent: {}
+[5.420278] (-) TimerEvent: {}
+[5.520733] (-) TimerEvent: {}
+[5.621181] (-) TimerEvent: {}
+[5.721658] (-) TimerEvent: {}
+[5.822122] (-) TimerEvent: {}
+[5.922614] (-) TimerEvent: {}
+[6.023115] (-) TimerEvent: {}
+[6.123565] (-) TimerEvent: {}
+[6.223968] (-) TimerEvent: {}
+[6.324379] (-) TimerEvent: {}
+[6.424793] (-) TimerEvent: {}
+[6.525199] (-) TimerEvent: {}
+[6.625606] (-) TimerEvent: {}
+[6.726011] (-) TimerEvent: {}
+[6.826405] (-) TimerEvent: {}
+[6.926806] (-) TimerEvent: {}
+[7.027209] (-) TimerEvent: {}
+[7.127622] (-) TimerEvent: {}
+[7.228038] (-) TimerEvent: {}
+[7.328450] (-) TimerEvent: {}
+[7.428852] (-) TimerEvent: {}
+[7.529252] (-) TimerEvent: {}
+[7.629656] (-) TimerEvent: {}
+[7.730050] (-) TimerEvent: {}
+[7.830447] (-) TimerEvent: {}
+[7.930842] (-) TimerEvent: {}
+[8.031262] (-) TimerEvent: {}
+[8.131687] (-) TimerEvent: {}
+[8.232173] (-) TimerEvent: {}
+[8.332589] (-) TimerEvent: {}
+[8.432991] (-) TimerEvent: {}
+[8.533393] (-) TimerEvent: {}
+[8.633801] (-) TimerEvent: {}
+[8.734210] (-) TimerEvent: {}
+[8.834623] (-) TimerEvent: {}
+[8.935082] (-) TimerEvent: {}
+[9.035616] (-) TimerEvent: {}
+[9.136051] (-) TimerEvent: {}
+[9.236488] (-) TimerEvent: {}
+[9.336952] (-) TimerEvent: {}
+[9.437509] (-) TimerEvent: {}
+[9.538113] (-) TimerEvent: {}
+[9.638692] (-) TimerEvent: {}
+[9.739092] (-) TimerEvent: {}
+[9.839494] (-) TimerEvent: {}
+[9.939888] (-) TimerEvent: {}
+[10.040278] (-) TimerEvent: {}
+[10.140681] (-) TimerEvent: {}
+[10.241069] (-) TimerEvent: {}
+[10.341463] (-) TimerEvent: {}
+[10.441852] (-) TimerEvent: {}
+[10.542241] (-) TimerEvent: {}
+[10.642622] (-) TimerEvent: {}
+[10.743014] (-) TimerEvent: {}
+[10.843411] (-) TimerEvent: {}
+[10.943803] (-) TimerEvent: {}
+[11.044194] (-) TimerEvent: {}
+[11.144649] (-) TimerEvent: {}
+[11.245046] (-) TimerEvent: {}
+[11.345440] (-) TimerEvent: {}
+[11.445878] (-) TimerEvent: {}
+[11.546312] (-) TimerEvent: {}
+[11.646710] (-) TimerEvent: {}
+[11.747107] (-) TimerEvent: {}
+[11.847496] (-) TimerEvent: {}
+[11.947886] (-) TimerEvent: {}
+[12.048284] (-) TimerEvent: {}
+[12.148725] (-) TimerEvent: {}
+[12.249191] (-) TimerEvent: {}
+[12.349661] (-) TimerEvent: {}
+[12.450142] (-) TimerEvent: {}
+[12.550660] (-) TimerEvent: {}
+[12.651182] (-) TimerEvent: {}
+[12.751708] (-) TimerEvent: {}
+[12.852215] (-) TimerEvent: {}
+[12.952658] (-) TimerEvent: {}
+[13.053040] (-) TimerEvent: {}
+[13.153422] (-) TimerEvent: {}
+[13.253799] (-) TimerEvent: {}
+[13.354179] (-) TimerEvent: {}
+[13.454568] (-) TimerEvent: {}
+[13.554952] (-) TimerEvent: {}
+[13.655340] (-) TimerEvent: {}
+[13.755735] (-) TimerEvent: {}
+[13.856113] (-) TimerEvent: {}
+[13.956495] (-) TimerEvent: {}
+[14.056889] (-) TimerEvent: {}
+[14.157271] (-) TimerEvent: {}
+[14.257669] (-) TimerEvent: {}
+[14.358053] (-) TimerEvent: {}
+[14.458436] (-) TimerEvent: {}
+[14.558832] (-) TimerEvent: {}
+[14.659217] (-) TimerEvent: {}
+[14.759599] (-) TimerEvent: {}
+[14.859988] (-) TimerEvent: {}
+[14.960388] (-) TimerEvent: {}
+[15.060747] (-) TimerEvent: {}
+[15.161138] (-) TimerEvent: {}
+[15.261527] (-) TimerEvent: {}
+[15.361915] (-) TimerEvent: {}
+[15.462297] (-) TimerEvent: {}
+[15.562688] (-) TimerEvent: {}
+[15.663071] (-) TimerEvent: {}
+[15.763447] (-) TimerEvent: {}
+[15.863832] (-) TimerEvent: {}
+[15.964301] (-) TimerEvent: {}
+[16.065060] (-) TimerEvent: {}
+[16.165694] (-) TimerEvent: {}
+[16.266100] (-) TimerEvent: {}
+[16.366491] (-) TimerEvent: {}
+[16.466882] (-) TimerEvent: {}
+[16.567282] (-) TimerEvent: {}
+[16.667684] (-) TimerEvent: {}
+[16.768122] (-) TimerEvent: {}
+[16.868643] (-) TimerEvent: {}
+[16.969142] (-) TimerEvent: {}
+[17.069603] (-) TimerEvent: {}
+[17.170168] (-) TimerEvent: {}
+[17.262678] (yhs_can_control) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable yhs_can_control_node\x1b[0m\n'}
+[17.270336] (-) TimerEvent: {}
+[17.370770] (-) TimerEvent: {}
+[17.471230] (-) TimerEvent: {}
+[17.571688] (-) TimerEvent: {}
+[17.672163] (-) TimerEvent: {}
+[17.772619] (-) TimerEvent: {}
+[17.873020] (-) TimerEvent: {}
+[17.973474] (-) TimerEvent: {}
+[18.073929] (-) TimerEvent: {}
+[18.174361] (-) TimerEvent: {}
+[18.273251] (yhs_can_control) StdoutLine: {'line': b'[100%] Built target yhs_can_control_node\n'}
+[18.274479] (-) TimerEvent: {}
+[18.286862] (yhs_can_control) CommandEnded: {'returncode': 0}
+[18.287684] (yhs_can_control) JobProgress: {'identifier': 'yhs_can_control', 'progress': 'install'}
+[18.299261] (yhs_can_control) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/jenter/package/work/build/yhs_can_control'], 'cwd': '/home/jenter/package/work/build/yhs_can_control', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jenter'), ('SSH_CLIENT', '192.168.0.4 50852 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jenter/package/work/install/yhs_can_interfaces/lib:/home/jenter/package/work/install/yesense_interface/lib:/home/jenter/package/work/install/serial/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/jenter'), ('OLDPWD', '/home/jenter/package/work/src/yhs_can_control/src'), ('SSH_TTY', '/dev/pts/1'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/jenter/package/work/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jenter'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'vt100'), ('XDG_SESSION_ID', '6'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/jenter/package/work/install/yhs_can_control:/home/jenter/package/work/install/yhs_can_interfaces:/home/jenter/package/work/install/yesense_std_ros2:/home/jenter/package/work/install/yesense_interface:/home/jenter/package/work/install/serial:/home/jenter/package/work/install/bluesea2:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('PWD', '/home/jenter/package/work/build/yhs_can_control'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.0.4 50852 192.168.0.26 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jenter/package/work/install/yhs_can_interfaces/local/lib/python3.10/dist-packages:/home/jenter/package/work/install/yesense_interface/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/jenter/package/work/install/yhs_can_interfaces:/home/jenter/package/work/install/yhs_can_control:/home/jenter/package/work/install/yesense_std_ros2:/home/jenter/package/work/install/yesense_interface:/home/jenter/package/work/install/serial:/home/jenter/package/work/install/bluesea2:/opt/ros/humble')]), 'shell': False}
+[18.308526] (yhs_can_control) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[18.308862] (yhs_can_control) StdoutLine: {'line': b'-- Installing: /home/jenter/package/work/install/yhs_can_control/lib/yhs_can_control/yhs_can_control_node\n'}
+[18.317744] (yhs_can_control) StdoutLine: {'line': b'-- Set runtime path of "/home/jenter/package/work/install/yhs_can_control/lib/yhs_can_control/yhs_can_control_node" to ""\n'}
+[18.317990] (yhs_can_control) StdoutLine: {'line': b'-- Up-to-date: /home/jenter/package/work/install/yhs_can_control/share/yhs_can_control/launch\n'}
+[18.318111] (yhs_can_control) StdoutLine: {'line': b'-- Up-to-date: /home/jenter/package/work/install/yhs_can_control/share/yhs_can_control/launch/yhs_can_control.launch.py\n'}
+[18.318646] (yhs_can_control) StdoutLine: {'line': b'-- Up-to-date: /home/jenter/package/work/install/yhs_can_control/share/yhs_can_control/params\n'}
+[18.318910] (yhs_can_control) StdoutLine: {'line': b'-- Up-to-date: /home/jenter/package/work/install/yhs_can_control/share/yhs_can_control/params/cfg.yaml\n'}
+[18.319031] (yhs_can_control) StdoutLine: {'line': b'-- Up-to-date: /home/jenter/package/work/install/yhs_can_control/share/ament_index/resource_index/package_run_dependencies/yhs_can_control\n'}
+[18.319139] (yhs_can_control) StdoutLine: {'line': b'-- Up-to-date: /home/jenter/package/work/install/yhs_can_control/share/ament_index/resource_index/parent_prefix_path/yhs_can_control\n'}
+[18.319242] (yhs_can_control) StdoutLine: {'line': b'-- Up-to-date: /home/jenter/package/work/install/yhs_can_control/share/yhs_can_control/environment/ament_prefix_path.sh\n'}
+[18.319343] (yhs_can_control) StdoutLine: {'line': b'-- Up-to-date: /home/jenter/package/work/install/yhs_can_control/share/yhs_can_control/environment/ament_prefix_path.dsv\n'}
+[18.319441] (yhs_can_control) StdoutLine: {'line': b'-- Up-to-date: /home/jenter/package/work/install/yhs_can_control/share/yhs_can_control/environment/path.sh\n'}
+[18.319542] (yhs_can_control) StdoutLine: {'line': b'-- Up-to-date: /home/jenter/package/work/install/yhs_can_control/share/yhs_can_control/environment/path.dsv\n'}
+[18.319642] (yhs_can_control) StdoutLine: {'line': b'-- Up-to-date: /home/jenter/package/work/install/yhs_can_control/share/yhs_can_control/local_setup.bash\n'}
+[18.319759] (yhs_can_control) StdoutLine: {'line': b'-- Up-to-date: /home/jenter/package/work/install/yhs_can_control/share/yhs_can_control/local_setup.sh\n'}
+[18.319867] (yhs_can_control) StdoutLine: {'line': b'-- Up-to-date: /home/jenter/package/work/install/yhs_can_control/share/yhs_can_control/local_setup.zsh\n'}
+[18.319972] (yhs_can_control) StdoutLine: {'line': b'-- Up-to-date: /home/jenter/package/work/install/yhs_can_control/share/yhs_can_control/local_setup.dsv\n'}
+[18.320121] (yhs_can_control) StdoutLine: {'line': b'-- Installing: /home/jenter/package/work/install/yhs_can_control/share/yhs_can_control/package.dsv\n'}
+[18.320339] (yhs_can_control) StdoutLine: {'line': b'-- Up-to-date: /home/jenter/package/work/install/yhs_can_control/share/ament_index/resource_index/packages/yhs_can_control\n'}
+[18.320731] (yhs_can_control) StdoutLine: {'line': b'-- Up-to-date: /home/jenter/package/work/install/yhs_can_control/share/yhs_can_control/cmake/yhs_can_controlConfig.cmake\n'}
+[18.321551] (yhs_can_control) StdoutLine: {'line': b'-- Up-to-date: /home/jenter/package/work/install/yhs_can_control/share/yhs_can_control/cmake/yhs_can_controlConfig-version.cmake\n'}
+[18.321832] (yhs_can_control) StdoutLine: {'line': b'-- Up-to-date: /home/jenter/package/work/install/yhs_can_control/share/yhs_can_control/package.xml\n'}
+[18.322022] (yhs_can_control) CommandEnded: {'returncode': 0}
+[18.345881] (yhs_can_control) JobEnded: {'identifier': 'yhs_can_control', 'rc': 0}
+[18.346759] (-) EventReactorShutdown: {}

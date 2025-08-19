@@ -1,0 +1,61 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from yhs_can_interfaces/msg/ChassisInfoFb.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+#include "yhs_can_interfaces/msg/BmsFb.idl"
+#include "yhs_can_interfaces/msg/BmsFlagFb.idl"
+#include "yhs_can_interfaces/msg/CtrlFb.idl"
+#include "yhs_can_interfaces/msg/DriveMotorCurrentFb.idl"
+#include "yhs_can_interfaces/msg/ErrorFb.idl"
+#include "yhs_can_interfaces/msg/FrontAngleFb.idl"
+#include "yhs_can_interfaces/msg/IoFb.idl"
+#include "yhs_can_interfaces/msg/LfWheelFb.idl"
+#include "yhs_can_interfaces/msg/LrWheelFb.idl"
+#include "yhs_can_interfaces/msg/MotorFb.idl"
+#include "yhs_can_interfaces/msg/RearAngleFb.idl"
+#include "yhs_can_interfaces/msg/RfWheelFb.idl"
+#include "yhs_can_interfaces/msg/RrWheelFb.idl"
+#include "yhs_can_interfaces/msg/SteeringCtrlFb.idl"
+#include "yhs_can_interfaces/msg/SteeringMotorCurrentFb.idl"
+#include "yhs_can_interfaces/msg/Ultrasonic.idl"
+
+module yhs_can_interfaces {
+  module msg {
+    struct ChassisInfoFb {
+      std_msgs::msg::Header header;
+
+      yhs_can_interfaces::msg::CtrlFb ctrl_fb;
+
+      yhs_can_interfaces::msg::SteeringCtrlFb steering_ctrl_fb;
+
+      yhs_can_interfaces::msg::IoFb io_fb;
+
+      yhs_can_interfaces::msg::MotorFb motor_fb;
+
+      yhs_can_interfaces::msg::LrWheelFb lr_wheel_fb;
+
+      yhs_can_interfaces::msg::RrWheelFb rr_wheel_fb;
+
+      yhs_can_interfaces::msg::LfWheelFb lf_wheel_fb;
+
+      yhs_can_interfaces::msg::RfWheelFb rf_wheel_fb;
+
+      yhs_can_interfaces::msg::FrontAngleFb front_angle_fb;
+
+      yhs_can_interfaces::msg::RearAngleFb rear_angle_fb;
+
+      yhs_can_interfaces::msg::BmsFlagFb bms_flag_fb;
+
+      yhs_can_interfaces::msg::BmsFb bms_fb;
+
+      yhs_can_interfaces::msg::DriveMotorCurrentFb drive_motor_current_fb;
+
+      yhs_can_interfaces::msg::SteeringMotorCurrentFb steering_motor_current_fb;
+
+      yhs_can_interfaces::msg::ErrorFb error_fb;
+
+      yhs_can_interfaces::msg::Ultrasonic ultrasonic;
+    };
+  };
+};

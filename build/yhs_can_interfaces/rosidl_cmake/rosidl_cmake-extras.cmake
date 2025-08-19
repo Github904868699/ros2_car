@@ -1,0 +1,4 @@
+# generated from rosidl_cmake/cmake/rosidl_cmake-extras.cmake.in
+
+set(yhs_can_interfaces_IDL_FILES "msg/BmsFlagFb.idl;msg/BmsFb.idl;msg/ChassisInfoFb.idl;msg/CtrlCmd.idl;msg/CtrlFb.idl;msg/SteeringCtrlCmd.idl;msg/SteeringCtrlFb.idl;msg/FrontAngleFb.idl;msg/IoCmd.idl;msg/IoFb.idl;msg/LrWheelFb.idl;msg/RrWheelFb.idl;msg/LfWheelFb.idl;msg/RfWheelFb.idl;msg/RearAngleFb.idl;msg/Ultrasonic.idl;msg/ErrorFb.idl;msg/MotorCmd.idl;msg/MotorFb.idl;msg/DriveMotorCurrentFb.idl;msg/SteeringMotorCurrentFb.idl")
+set(yhs_can_interfaces_INTERFACE_FILES "msg/BmsFlagFb.msg;msg/BmsFb.msg;msg/ChassisInfoFb.msg;msg/CtrlCmd.msg;msg/CtrlFb.msg;msg/SteeringCtrlCmd.msg;msg/SteeringCtrlFb.msg;msg/FrontAngleFb.msg;msg/IoCmd.msg;msg/IoFb.msg;msg/LrWheelFb.msg;msg/RrWheelFb.msg;msg/LfWheelFb.msg;msg/RfWheelFb.msg;msg/RearAngleFb.msg;msg/Ultrasonic.msg;msg/ErrorFb.msg;msg/MotorCmd.msg;msg/MotorFb.msg;msg/DriveMotorCurrentFb.msg;msg/SteeringMotorCurrentFb.msg")

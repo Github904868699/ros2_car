@@ -1,0 +1,416 @@
+[0.000000] (-) TimerEvent: {}
+[0.001537] (-) JobUnselected: {'identifier': 'bluesea2'}
+[0.001583] (-) JobUnselected: {'identifier': 'serial'}
+[0.001618] (-) JobUnselected: {'identifier': 'yesense_interface'}
+[0.001652] (yesense_std_ros2) JobQueued: {'identifier': 'yesense_std_ros2', 'dependencies': OrderedDict([('serial', '/home/jenter/package/work/install/serial'), ('yesense_interface', '/home/jenter/package/work/install/yesense_interface')])}
+[0.001702] (yesense_std_ros2) JobStarted: {'identifier': 'yesense_std_ros2'}
+[0.014724] (yesense_std_ros2) JobProgress: {'identifier': 'yesense_std_ros2', 'progress': 'cmake'}
+[0.015217] (yesense_std_ros2) Command: {'cmd': ['/usr/bin/cmake', '/home/jenter/package/work/src/yesense_ros2/yesense_std_ros2', '-DCMAKE_INSTALL_PREFIX=/home/jenter/package/work/install/yesense_std_ros2'], 'cwd': '/home/jenter/package/work/build/yesense_std_ros2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jenter'), ('SSH_CLIENT', '192.168.10.111 53952 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jenter/package/work/install/yesense_interface/lib:/home/jenter/package/work/install/serial/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/jenter'), ('OLDPWD', '/home/jenter/package/work/src'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/jenter/package/work/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jenter'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'vt100'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/jenter/package/work/install/yesense_interface:/home/jenter/package/work/install/serial:/home/jenter/package/work/install/bluesea2:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('PWD', '/home/jenter/package/work/build/yesense_std_ros2'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.10.111 53952 192.168.10.120 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jenter/package/work/install/yesense_interface/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/jenter/package/work/install/yesense_interface:/home/jenter/package/work/install/serial:/home/jenter/package/work/install/bluesea2:/opt/ros/humble')]), 'shell': False}
+[0.084403] (yesense_std_ros2) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.100023] (-) TimerEvent: {}
+[0.153443] (yesense_std_ros2) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.162174] (yesense_std_ros2) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.200144] (-) TimerEvent: {}
+[0.244848] (yesense_std_ros2) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.256283] (yesense_std_ros2) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.256735] (yesense_std_ros2) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.257250] (yesense_std_ros2) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.261489] (yesense_std_ros2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.300302] (-) TimerEvent: {}
+[0.358383] (yesense_std_ros2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.369894] (yesense_std_ros2) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.370247] (yesense_std_ros2) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.370970] (yesense_std_ros2) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.373819] (yesense_std_ros2) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.400441] (-) TimerEvent: {}
+[0.500790] (-) TimerEvent: {}
+[0.574371] (yesense_std_ros2) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.600942] (-) TimerEvent: {}
+[0.690094] (yesense_std_ros2) StdoutLine: {'line': b'-- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.701088] (-) TimerEvent: {}
+[0.743703] (yesense_std_ros2) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.750162] (yesense_std_ros2) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.761110] (yesense_std_ros2) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.777611] (yesense_std_ros2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.799341] (yesense_std_ros2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.801209] (-) TimerEvent: {}
+[0.858174] (yesense_std_ros2) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.861543] (yesense_std_ros2) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.901347] (-) TimerEvent: {}
+[0.958064] (yesense_std_ros2) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.991296] (yesense_std_ros2) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.001485] (-) TimerEvent: {}
+[1.041540] (yesense_std_ros2) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.052137] (yesense_std_ros2) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.101657] (-) TimerEvent: {}
+[1.139325] (yesense_std_ros2) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.139910] (yesense_std_ros2) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.201825] (-) TimerEvent: {}
+[1.229491] (yesense_std_ros2) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.231108] (yesense_std_ros2) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.301976] (-) TimerEvent: {}
+[1.302853] (yesense_std_ros2) StdoutLine: {'line': b'-- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[1.345278] (yesense_std_ros2) StdoutLine: {'line': b'-- Found serial: 1.2.1 (/home/jenter/package/work/install/serial/share/serial/cmake)\n'}
+[1.349455] (yesense_std_ros2) StdoutLine: {'line': b'-- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[1.374414] (yesense_std_ros2) StdoutLine: {'line': b'-- Found visualization_msgs: 4.9.0 (/opt/ros/humble/share/visualization_msgs/cmake)\n'}
+[1.402110] (-) TimerEvent: {}
+[1.403168] (yesense_std_ros2) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[1.414935] (yesense_std_ros2) StdoutLine: {'line': b'-- Found yesense_interface: 1.0.0 (/home/jenter/package/work/install/yesense_interface/share/yesense_interface/cmake)\n'}
+[1.440116] (yesense_std_ros2) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.502263] (-) TimerEvent: {}
+[1.546595] (yesense_std_ros2) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.548319] (yesense_std_ros2) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.549073] (yesense_std_ros2) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/jenter/package/work/src/yesense_ros2/yesense_std_ros2/include;/home/jenter/package/work/src/yesense_ros2/yesense_std_ros2/src\n'}
+[1.549228] (yesense_std_ros2) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.550603] (yesense_std_ros2) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[1.550768] (yesense_std_ros2) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[1.551347] (yesense_std_ros2) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[1.552148] (yesense_std_ros2) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.552857] (yesense_std_ros2) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[1.554327] (yesense_std_ros2) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.554491] (yesense_std_ros2) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.555135] (yesense_std_ros2) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.556797] (yesense_std_ros2) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.579840] (yesense_std_ros2) StdoutLine: {'line': b'-- Generating done\n'}
+[1.588693] (yesense_std_ros2) StdoutLine: {'line': b'-- Build files have been written to: /home/jenter/package/work/build/yesense_std_ros2\n'}
+[1.602161] (yesense_std_ros2) CommandEnded: {'returncode': 0}
+[1.602661] (-) TimerEvent: {}
+[1.603107] (yesense_std_ros2) JobProgress: {'identifier': 'yesense_std_ros2', 'progress': 'build'}
+[1.604841] (yesense_std_ros2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jenter/package/work/build/yesense_std_ros2', '--', '-j4', '-l4'], 'cwd': '/home/jenter/package/work/build/yesense_std_ros2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jenter'), ('SSH_CLIENT', '192.168.10.111 53952 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jenter/package/work/install/yesense_interface/lib:/home/jenter/package/work/install/serial/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/jenter'), ('OLDPWD', '/home/jenter/package/work/src'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/jenter/package/work/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jenter'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'vt100'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/jenter/package/work/install/yesense_interface:/home/jenter/package/work/install/serial:/home/jenter/package/work/install/bluesea2:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('PWD', '/home/jenter/package/work/build/yesense_std_ros2'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.10.111 53952 192.168.10.120 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jenter/package/work/install/yesense_interface/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/jenter/package/work/install/yesense_interface:/home/jenter/package/work/install/serial:/home/jenter/package/work/install/bluesea2:/opt/ros/humble')]), 'shell': False}
+[1.671278] (yesense_std_ros2) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/yesense_node_subscriber.dir/src/yesense_node_subscriber_example.cpp.o\x1b[0m\n'}
+[1.671767] (yesense_std_ros2) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/yesense_node_publisher.dir/src/yesense_decoder.cpp.o\x1b[0m\n'}
+[1.671990] (yesense_std_ros2) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/yesense_node_publisher.dir/src/yesense_std_out_decoder.cpp.o\x1b[0m\n'}
+[1.672304] (yesense_std_ros2) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/yesense_node_publisher.dir/src/yesense_node.cpp.o\x1b[0m\n'}
+[1.702829] (-) TimerEvent: {}
+[1.803341] (-) TimerEvent: {}
+[1.903818] (-) TimerEvent: {}
+[2.004300] (-) TimerEvent: {}
+[2.104820] (-) TimerEvent: {}
+[2.205343] (-) TimerEvent: {}
+[2.305891] (-) TimerEvent: {}
+[2.406363] (-) TimerEvent: {}
+[2.506809] (-) TimerEvent: {}
+[2.607266] (-) TimerEvent: {}
+[2.707744] (-) TimerEvent: {}
+[2.808223] (-) TimerEvent: {}
+[2.908691] (-) TimerEvent: {}
+[3.009188] (-) TimerEvent: {}
+[3.109702] (-) TimerEvent: {}
+[3.210198] (-) TimerEvent: {}
+[3.310699] (-) TimerEvent: {}
+[3.411152] (-) TimerEvent: {}
+[3.511661] (-) TimerEvent: {}
+[3.612145] (-) TimerEvent: {}
+[3.712636] (-) TimerEvent: {}
+[3.813129] (-) TimerEvent: {}
+[3.913630] (-) TimerEvent: {}
+[4.014118] (-) TimerEvent: {}
+[4.114639] (-) TimerEvent: {}
+[4.215078] (-) TimerEvent: {}
+[4.315579] (-) TimerEvent: {}
+[4.416071] (-) TimerEvent: {}
+[4.516629] (-) TimerEvent: {}
+[4.617118] (-) TimerEvent: {}
+[4.717613] (-) TimerEvent: {}
+[4.818125] (-) TimerEvent: {}
+[4.918632] (-) TimerEvent: {}
+[5.019092] (-) TimerEvent: {}
+[5.119612] (-) TimerEvent: {}
+[5.220110] (-) TimerEvent: {}
+[5.320626] (-) TimerEvent: {}
+[5.421152] (-) TimerEvent: {}
+[5.521662] (-) TimerEvent: {}
+[5.622210] (-) TimerEvent: {}
+[5.722723] (-) TimerEvent: {}
+[5.823241] (-) TimerEvent: {}
+[5.923785] (-) TimerEvent: {}
+[6.024294] (-) TimerEvent: {}
+[6.124781] (-) TimerEvent: {}
+[6.225286] (-) TimerEvent: {}
+[6.325776] (-) TimerEvent: {}
+[6.426272] (-) TimerEvent: {}
+[6.526677] (-) TimerEvent: {}
+[6.627115] (-) TimerEvent: {}
+[6.727608] (-) TimerEvent: {}
+[6.743360] (yesense_std_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jenter/package/work/src/yesense_ros2/yesense_std_ros2/src/yesense_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid YESENSE_Publisher::timer_callback()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.743723] (yesense_std_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jenter/package/work/src/yesense_ros2/yesense_std_ros2/src/yesense_node.cpp:248:32:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kavailable_bytes\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.743906] (yesense_std_ros2) StderrLine: {'line': b'  248 |                         size_t \x1b[01;35m\x1b[Kavailable_bytes\x1b[m\x1b[K = ser.available();\n'}
+[6.744041] (yesense_std_ros2) StderrLine: {'line': b'      |                                \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.827803] (-) TimerEvent: {}
+[6.928301] (-) TimerEvent: {}
+[7.028792] (-) TimerEvent: {}
+[7.129287] (-) TimerEvent: {}
+[7.229783] (-) TimerEvent: {}
+[7.330284] (-) TimerEvent: {}
+[7.430794] (-) TimerEvent: {}
+[7.531288] (-) TimerEvent: {}
+[7.631783] (-) TimerEvent: {}
+[7.732272] (-) TimerEvent: {}
+[7.832772] (-) TimerEvent: {}
+[7.933282] (-) TimerEvent: {}
+[8.033795] (-) TimerEvent: {}
+[8.134304] (-) TimerEvent: {}
+[8.234816] (-) TimerEvent: {}
+[8.335326] (-) TimerEvent: {}
+[8.435863] (-) TimerEvent: {}
+[8.536365] (-) TimerEvent: {}
+[8.636871] (-) TimerEvent: {}
+[8.737398] (-) TimerEvent: {}
+[8.837927] (-) TimerEvent: {}
+[8.938430] (-) TimerEvent: {}
+[9.038942] (-) TimerEvent: {}
+[9.139439] (-) TimerEvent: {}
+[9.239953] (-) TimerEvent: {}
+[9.340502] (-) TimerEvent: {}
+[9.441059] (-) TimerEvent: {}
+[9.541620] (-) TimerEvent: {}
+[9.642224] (-) TimerEvent: {}
+[9.742776] (-) TimerEvent: {}
+[9.843419] (-) TimerEvent: {}
+[9.944037] (-) TimerEvent: {}
+[10.044707] (-) TimerEvent: {}
+[10.145217] (-) TimerEvent: {}
+[10.245734] (-) TimerEvent: {}
+[10.346243] (-) TimerEvent: {}
+[10.446760] (-) TimerEvent: {}
+[10.547247] (-) TimerEvent: {}
+[10.647750] (-) TimerEvent: {}
+[10.748254] (-) TimerEvent: {}
+[10.848746] (-) TimerEvent: {}
+[10.949248] (-) TimerEvent: {}
+[11.049743] (-) TimerEvent: {}
+[11.150240] (-) TimerEvent: {}
+[11.250703] (-) TimerEvent: {}
+[11.351176] (-) TimerEvent: {}
+[11.451650] (-) TimerEvent: {}
+[11.552142] (-) TimerEvent: {}
+[11.652657] (-) TimerEvent: {}
+[11.753182] (-) TimerEvent: {}
+[11.853689] (-) TimerEvent: {}
+[11.954195] (-) TimerEvent: {}
+[12.054688] (-) TimerEvent: {}
+[12.155171] (-) TimerEvent: {}
+[12.255672] (-) TimerEvent: {}
+[12.356228] (-) TimerEvent: {}
+[12.456762] (-) TimerEvent: {}
+[12.557280] (-) TimerEvent: {}
+[12.657816] (-) TimerEvent: {}
+[12.758366] (-) TimerEvent: {}
+[12.859034] (-) TimerEvent: {}
+[12.959674] (-) TimerEvent: {}
+[13.060167] (-) TimerEvent: {}
+[13.160655] (-) TimerEvent: {}
+[13.261116] (-) TimerEvent: {}
+[13.361608] (-) TimerEvent: {}
+[13.462062] (-) TimerEvent: {}
+[13.562543] (-) TimerEvent: {}
+[13.663016] (-) TimerEvent: {}
+[13.763490] (-) TimerEvent: {}
+[13.863951] (-) TimerEvent: {}
+[13.964398] (-) TimerEvent: {}
+[14.064845] (-) TimerEvent: {}
+[14.165309] (-) TimerEvent: {}
+[14.265781] (-) TimerEvent: {}
+[14.366243] (-) TimerEvent: {}
+[14.466691] (-) TimerEvent: {}
+[14.567160] (-) TimerEvent: {}
+[14.667647] (-) TimerEvent: {}
+[14.768142] (-) TimerEvent: {}
+[14.868630] (-) TimerEvent: {}
+[14.969147] (-) TimerEvent: {}
+[15.069713] (-) TimerEvent: {}
+[15.170186] (-) TimerEvent: {}
+[15.270635] (-) TimerEvent: {}
+[15.371083] (-) TimerEvent: {}
+[15.471518] (-) TimerEvent: {}
+[15.572000] (-) TimerEvent: {}
+[15.672695] (-) TimerEvent: {}
+[15.773225] (-) TimerEvent: {}
+[15.873761] (-) TimerEvent: {}
+[15.974296] (-) TimerEvent: {}
+[16.075002] (-) TimerEvent: {}
+[16.175529] (-) TimerEvent: {}
+[16.276060] (-) TimerEvent: {}
+[16.376609] (-) TimerEvent: {}
+[16.477157] (-) TimerEvent: {}
+[16.577714] (-) TimerEvent: {}
+[16.678265] (-) TimerEvent: {}
+[16.778819] (-) TimerEvent: {}
+[16.879304] (-) TimerEvent: {}
+[16.979779] (-) TimerEvent: {}
+[17.080230] (-) TimerEvent: {}
+[17.180693] (-) TimerEvent: {}
+[17.281151] (-) TimerEvent: {}
+[17.381619] (-) TimerEvent: {}
+[17.482114] (-) TimerEvent: {}
+[17.582650] (-) TimerEvent: {}
+[17.683233] (-) TimerEvent: {}
+[17.783738] (-) TimerEvent: {}
+[17.884218] (-) TimerEvent: {}
+[17.984688] (-) TimerEvent: {}
+[18.085179] (-) TimerEvent: {}
+[18.185704] (-) TimerEvent: {}
+[18.286227] (-) TimerEvent: {}
+[18.386817] (-) TimerEvent: {}
+[18.487419] (-) TimerEvent: {}
+[18.587976] (-) TimerEvent: {}
+[18.688649] (-) TimerEvent: {}
+[18.789097] (-) TimerEvent: {}
+[18.889499] (-) TimerEvent: {}
+[18.989901] (-) TimerEvent: {}
+[19.090351] (-) TimerEvent: {}
+[19.190791] (-) TimerEvent: {}
+[19.291241] (-) TimerEvent: {}
+[19.391659] (-) TimerEvent: {}
+[19.492100] (-) TimerEvent: {}
+[19.592501] (-) TimerEvent: {}
+[19.692948] (-) TimerEvent: {}
+[19.793401] (-) TimerEvent: {}
+[19.893852] (-) TimerEvent: {}
+[19.994298] (-) TimerEvent: {}
+[20.094727] (-) TimerEvent: {}
+[20.195171] (-) TimerEvent: {}
+[20.295724] (-) TimerEvent: {}
+[20.396212] (-) TimerEvent: {}
+[20.496749] (-) TimerEvent: {}
+[20.592335] (yesense_std_ros2) StdoutLine: {'line': b'[ 83%] \x1b[32m\x1b[1mLinking CXX executable yesense_node_publisher\x1b[0m\n'}
+[20.596876] (-) TimerEvent: {}
+[20.697447] (-) TimerEvent: {}
+[20.797974] (-) TimerEvent: {}
+[20.898563] (-) TimerEvent: {}
+[20.999080] (-) TimerEvent: {}
+[21.099604] (-) TimerEvent: {}
+[21.200074] (-) TimerEvent: {}
+[21.300536] (-) TimerEvent: {}
+[21.401017] (-) TimerEvent: {}
+[21.501532] (-) TimerEvent: {}
+[21.531676] (yesense_std_ros2) StdoutLine: {'line': b'[ 83%] Built target yesense_node_publisher\n'}
+[21.601698] (-) TimerEvent: {}
+[21.702090] (-) TimerEvent: {}
+[21.802481] (-) TimerEvent: {}
+[21.902896] (-) TimerEvent: {}
+[22.003296] (-) TimerEvent: {}
+[22.103692] (-) TimerEvent: {}
+[22.204086] (-) TimerEvent: {}
+[22.304479] (-) TimerEvent: {}
+[22.404871] (-) TimerEvent: {}
+[22.505258] (-) TimerEvent: {}
+[22.605651] (-) TimerEvent: {}
+[22.706054] (-) TimerEvent: {}
+[22.806446] (-) TimerEvent: {}
+[22.906849] (-) TimerEvent: {}
+[23.007237] (-) TimerEvent: {}
+[23.107626] (-) TimerEvent: {}
+[23.208010] (-) TimerEvent: {}
+[23.308409] (-) TimerEvent: {}
+[23.408804] (-) TimerEvent: {}
+[23.509194] (-) TimerEvent: {}
+[23.609593] (-) TimerEvent: {}
+[23.709979] (-) TimerEvent: {}
+[23.810363] (-) TimerEvent: {}
+[23.910772] (-) TimerEvent: {}
+[24.011174] (-) TimerEvent: {}
+[24.111574] (-) TimerEvent: {}
+[24.211957] (-) TimerEvent: {}
+[24.312345] (-) TimerEvent: {}
+[24.412739] (-) TimerEvent: {}
+[24.513133] (-) TimerEvent: {}
+[24.613528] (-) TimerEvent: {}
+[24.713912] (-) TimerEvent: {}
+[24.814312] (-) TimerEvent: {}
+[24.914716] (-) TimerEvent: {}
+[25.015100] (-) TimerEvent: {}
+[25.115498] (-) TimerEvent: {}
+[25.215882] (-) TimerEvent: {}
+[25.316272] (-) TimerEvent: {}
+[25.416663] (-) TimerEvent: {}
+[25.517063] (-) TimerEvent: {}
+[25.617476] (-) TimerEvent: {}
+[25.717862] (-) TimerEvent: {}
+[25.818199] (-) TimerEvent: {}
+[25.918611] (-) TimerEvent: {}
+[26.019000] (-) TimerEvent: {}
+[26.119384] (-) TimerEvent: {}
+[26.219771] (-) TimerEvent: {}
+[26.320149] (-) TimerEvent: {}
+[26.420539] (-) TimerEvent: {}
+[26.520923] (-) TimerEvent: {}
+[26.621316] (-) TimerEvent: {}
+[26.721699] (-) TimerEvent: {}
+[26.822076] (-) TimerEvent: {}
+[26.922464] (-) TimerEvent: {}
+[27.022872] (-) TimerEvent: {}
+[27.123218] (-) TimerEvent: {}
+[27.223602] (-) TimerEvent: {}
+[27.323983] (-) TimerEvent: {}
+[27.424390] (-) TimerEvent: {}
+[27.524782] (-) TimerEvent: {}
+[27.625175] (-) TimerEvent: {}
+[27.725643] (-) TimerEvent: {}
+[27.826319] (-) TimerEvent: {}
+[27.926939] (-) TimerEvent: {}
+[28.027407] (-) TimerEvent: {}
+[28.127814] (-) TimerEvent: {}
+[28.228213] (-) TimerEvent: {}
+[28.328638] (-) TimerEvent: {}
+[28.429051] (-) TimerEvent: {}
+[28.529473] (-) TimerEvent: {}
+[28.629897] (-) TimerEvent: {}
+[28.730296] (-) TimerEvent: {}
+[28.830702] (-) TimerEvent: {}
+[28.931124] (-) TimerEvent: {}
+[29.031622] (-) TimerEvent: {}
+[29.132215] (-) TimerEvent: {}
+[29.232684] (-) TimerEvent: {}
+[29.333099] (-) TimerEvent: {}
+[29.433609] (-) TimerEvent: {}
+[29.534224] (-) TimerEvent: {}
+[29.634715] (-) TimerEvent: {}
+[29.731978] (yesense_std_ros2) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable yesense_node_subscriber\x1b[0m\n'}
+[29.734819] (-) TimerEvent: {}
+[29.835228] (-) TimerEvent: {}
+[29.935704] (-) TimerEvent: {}
+[30.036143] (-) TimerEvent: {}
+[30.136630] (-) TimerEvent: {}
+[30.237135] (-) TimerEvent: {}
+[30.337647] (-) TimerEvent: {}
+[30.438104] (-) TimerEvent: {}
+[30.538568] (-) TimerEvent: {}
+[30.638990] (-) TimerEvent: {}
+[30.739423] (-) TimerEvent: {}
+[30.839852] (-) TimerEvent: {}
+[30.940272] (-) TimerEvent: {}
+[31.040745] (-) TimerEvent: {}
+[31.141238] (-) TimerEvent: {}
+[31.211744] (yesense_std_ros2) StdoutLine: {'line': b'[100%] Built target yesense_node_subscriber\n'}
+[31.225255] (yesense_std_ros2) CommandEnded: {'returncode': 0}
+[31.226165] (yesense_std_ros2) JobProgress: {'identifier': 'yesense_std_ros2', 'progress': 'install'}
+[31.237073] (yesense_std_ros2) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/jenter/package/work/build/yesense_std_ros2'], 'cwd': '/home/jenter/package/work/build/yesense_std_ros2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jenter'), ('SSH_CLIENT', '192.168.10.111 53952 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jenter/package/work/install/yesense_interface/lib:/home/jenter/package/work/install/serial/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/jenter'), ('OLDPWD', '/home/jenter/package/work/src'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/jenter/package/work/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jenter'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'vt100'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/jenter/package/work/install/yesense_interface:/home/jenter/package/work/install/serial:/home/jenter/package/work/install/bluesea2:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('PWD', '/home/jenter/package/work/build/yesense_std_ros2'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.10.111 53952 192.168.10.120 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jenter/package/work/install/yesense_interface/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/jenter/package/work/install/yesense_interface:/home/jenter/package/work/install/serial:/home/jenter/package/work/install/bluesea2:/opt/ros/humble')]), 'shell': False}
+[31.241378] (-) TimerEvent: {}
+[31.246435] (yesense_std_ros2) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[31.246770] (yesense_std_ros2) StdoutLine: {'line': b'-- Installing: /home/jenter/package/work/install/yesense_std_ros2/share/yesense_std_ros2/launch\n'}
+[31.246952] (yesense_std_ros2) StdoutLine: {'line': b'-- Installing: /home/jenter/package/work/install/yesense_std_ros2/share/yesense_std_ros2/launch/yesense_node.launch.py\n'}
+[31.247161] (yesense_std_ros2) StdoutLine: {'line': b'-- Installing: /home/jenter/package/work/install/yesense_std_ros2/share/yesense_std_ros2/config\n'}
+[31.247319] (yesense_std_ros2) StdoutLine: {'line': b'-- Installing: /home/jenter/package/work/install/yesense_std_ros2/share/yesense_std_ros2/config/yesense_config.yaml\n'}
+[31.247551] (yesense_std_ros2) StdoutLine: {'line': b'-- Installing: /home/jenter/package/work/install/yesense_std_ros2/lib/yesense_std_ros2/yesense_node_publisher\n'}
+[31.253282] (yesense_std_ros2) StdoutLine: {'line': b'-- Set runtime path of "/home/jenter/package/work/install/yesense_std_ros2/lib/yesense_std_ros2/yesense_node_publisher" to ""\n'}
+[31.253534] (yesense_std_ros2) StdoutLine: {'line': b'-- Installing: /home/jenter/package/work/install/yesense_std_ros2/lib/yesense_std_ros2/yesense_node_subscriber\n'}
+[31.265862] (yesense_std_ros2) StdoutLine: {'line': b'-- Set runtime path of "/home/jenter/package/work/install/yesense_std_ros2/lib/yesense_std_ros2/yesense_node_subscriber" to ""\n'}
+[31.266144] (yesense_std_ros2) StdoutLine: {'line': b'-- Installing: /home/jenter/package/work/install/yesense_std_ros2/share/ament_index/resource_index/package_run_dependencies/yesense_std_ros2\n'}
+[31.266263] (yesense_std_ros2) StdoutLine: {'line': b'-- Installing: /home/jenter/package/work/install/yesense_std_ros2/share/ament_index/resource_index/parent_prefix_path/yesense_std_ros2\n'}
+[31.266399] (yesense_std_ros2) StdoutLine: {'line': b'-- Installing: /home/jenter/package/work/install/yesense_std_ros2/share/yesense_std_ros2/environment/ament_prefix_path.sh\n'}
+[31.266519] (yesense_std_ros2) StdoutLine: {'line': b'-- Installing: /home/jenter/package/work/install/yesense_std_ros2/share/yesense_std_ros2/environment/ament_prefix_path.dsv\n'}
+[31.266750] (yesense_std_ros2) StdoutLine: {'line': b'-- Installing: /home/jenter/package/work/install/yesense_std_ros2/share/yesense_std_ros2/environment/path.sh\n'}
+[31.266993] (yesense_std_ros2) StdoutLine: {'line': b'-- Installing: /home/jenter/package/work/install/yesense_std_ros2/share/yesense_std_ros2/environment/path.dsv\n'}
+[31.267136] (yesense_std_ros2) StdoutLine: {'line': b'-- Installing: /home/jenter/package/work/install/yesense_std_ros2/share/yesense_std_ros2/local_setup.bash\n'}
+[31.267261] (yesense_std_ros2) StdoutLine: {'line': b'-- Installing: /home/jenter/package/work/install/yesense_std_ros2/share/yesense_std_ros2/local_setup.sh\n'}
+[31.267378] (yesense_std_ros2) StdoutLine: {'line': b'-- Installing: /home/jenter/package/work/install/yesense_std_ros2/share/yesense_std_ros2/local_setup.zsh\n'}
+[31.267493] (yesense_std_ros2) StdoutLine: {'line': b'-- Installing: /home/jenter/package/work/install/yesense_std_ros2/share/yesense_std_ros2/local_setup.dsv\n'}
+[31.267603] (yesense_std_ros2) StdoutLine: {'line': b'-- Installing: /home/jenter/package/work/install/yesense_std_ros2/share/yesense_std_ros2/package.dsv\n'}
+[31.267779] (yesense_std_ros2) StdoutLine: {'line': b'-- Installing: /home/jenter/package/work/install/yesense_std_ros2/share/ament_index/resource_index/packages/yesense_std_ros2\n'}
+[31.267978] (yesense_std_ros2) StdoutLine: {'line': b'-- Installing: /home/jenter/package/work/install/yesense_std_ros2/share/yesense_std_ros2/cmake/yesense_std_ros2Config.cmake\n'}
+[31.268108] (yesense_std_ros2) StdoutLine: {'line': b'-- Installing: /home/jenter/package/work/install/yesense_std_ros2/share/yesense_std_ros2/cmake/yesense_std_ros2Config-version.cmake\n'}
+[31.268262] (yesense_std_ros2) StdoutLine: {'line': b'-- Installing: /home/jenter/package/work/install/yesense_std_ros2/share/yesense_std_ros2/package.xml\n'}
+[31.270479] (yesense_std_ros2) CommandEnded: {'returncode': 0}
+[31.309283] (yesense_std_ros2) JobEnded: {'identifier': 'yesense_std_ros2', 'rc': 0}
+[31.310525] (-) EventReactorShutdown: {}
