@@ -12,6 +12,7 @@
 #include <cmath>
 #include <iomanip>
 #include <sstream>
+#include <cstdint>
 
 #include "rclcpp/rclcpp.hpp"
 
@@ -52,6 +53,8 @@ namespace yhs
     std::string if_name_;
     int can_socket_;
     std::thread thread_;
+
+    uint8_t ctrl_fb_gear_{0};
 
     std::vector<int64_t> ultrasonic_number_;
 

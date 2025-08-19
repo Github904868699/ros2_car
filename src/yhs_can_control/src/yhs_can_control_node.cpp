@@ -21,7 +21,7 @@ namespace yhs
 
 
   CanControl::CanControl(rclcpp::Node::SharedPtr node)
-      : node_(node), if_name_("can0"), can_socket_(-1)
+      : node_(node), if_name_("can0"), can_socket_(-1), ctrl_fb_gear_(0)
   {
     generate_crc8_table();
     READ_PARAM(std::string, "can_name", (if_name_), "can0");
@@ -135,7 +135,6 @@ namespace yhs
 
     const short steering_ctrl_cmd_velocity = msg.steering_ctrl_cmd_velocity * 400 / 10 ;  //输入范围：-6 ~ 6  控制范围：-240 ~ 240
     const short steering_ctrl_cmd_steering = msg.steering_ctrl_cmd_steering / 10 / 3.14 * 180 *100 ;  //输入范围：-5.2 ~ 5.2 控制范围：-3000 ~ 3000
-    const unsigned char gear = msg.ctrl_cmd_gear;
 
    // 速度控制
     unsigned char sendDataVelocity[8] = {0};
@@ -255,6 +254,7 @@ whether the can line is connected correctly, and whether the chassis is powered 
         {
           yhs_can_interfaces::msg::CtrlFb msg;
           msg.ctrl_fb_gear = 0x0f & recv_frame.data[0];
+          ctrl_fb_gear_ = msg.ctrl_fb_gear;
 
           msg.ctrl_fb_x_linear = static_cast<float>(static_cast<short>((recv_frame.data[2] & 0x0f) << 12 | recv_frame.data[1] << 4 | (recv_frame.data[0] & 0xf0) >> 4)) / 1000;
 
@@ -278,7 +278,7 @@ whether the can line is connected correctly, and whether the chassis is powered 
         case 0x11:
         {
           yhs_can_interfaces::msg::SteeringCtrlFb msg;
-          msg.steering_ctrl_fb_gear = 0x00;
+          msg.steering_ctrl_fb_gear = ctrl_fb_gear_;
 
           msg.steering_ctrl_fb_rfspeed = static_cast<float>(static_cast<short>(recv_frame.data[1] << 8 | recv_frame.data[0])) / 10;
 
@@ -304,7 +304,10 @@ whether the can line is connected correctly, and whether the chassis is powered 
   void CanControl::publish_odom(const double steering_ctrl_fb_lrspeed, const double steering_ctrl_fb_steering)
   {
     //线速度
-    double lr_linear_vel = steering_ctrl_fb_lrspeed * 2 * 3.14 * 7.5 / 100 / 60;    //半径7.5cm 
+    double lr_linear_vel = steering_ctrl_fb_lrspeed * 2 * 3.14 * 7.5 / 100 / 60;    //半径7.5cm
+    if (ctrl_fb_gear_ == 2) {
+      lr_linear_vel = -lr_linear_vel;
+    }
     double linear_vel = lr_linear_vel;
     //角速度，底板给的数据是左负右正，ROS的坐标系采用右手定则，为左正右负
     double angular_vel = linear_vel * std::tan(steering_ctrl_fb_steering * -1) / 0.5;   //中心点轴距0.5m
